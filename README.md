@@ -1,6 +1,6 @@
 ## Welcome to Biosphere - IFB Cloud Federation for Life Science
 
-French Institute of Bioinformatics - [IFB](http://www.france-bioinformatique.fr) - has set up a federation of clouds, Biosphere, which relies on interconnected IT infrastructures of some IFB’s platforms, providing distributed services to analyze life science data. Biosphere provides multi-cloud deployment that help for example to combine larger CPU resources, to use different data sources, and to guarantee the availability of cloud resources. Biosphere is used for scientific production in the life sciences, developments, and also to support events like cloud and scientific training sessions, hackathons or workshops.
+Biosphere provides multi-cloud deployment that help for example to combine larger CPU resources, to use different data sources, and to guarantee the availability of cloud resources. Biosphere is used for scientific production in the life sciences, developments, and also to support events like cloud and scientific training sessions, hackathons or workshops.
 
 The Biosphere portal provides different high-level cloud interfaces to analyze your data:
 
