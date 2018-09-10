@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Welcome to Biosphere - IFB Cloud Federation for Life Science
 
-You can use the [editor on GitHub](https://github.com/IFB-ElixirFr/biosphere/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+French Institute of Bioinformatics - [IFB](http://www.france-bioinformatique.fr) - has set up a federation of clouds, Biosphere, which relies on interconnected IT infrastructures of some IFB’s platforms, providing distributed services to analyze life science data. Biosphere provides multi-cloud deployment that help for example to combine larger CPU resources, to use different data sources, and to guarantee the availability of cloud resources. Biosphere is used for scientific production in the life sciences, developments, and also to support events like cloud and scientific training sessions, hackathons or workshops.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The Biosphere portal provides different high-level cloud interfaces to analyze your data:
 
-### Markdown
+* The [RAINBio](https://biosphere.france-bioinformatique.fr/catalogue) catalogue to select the bioinformatics cloud appliances, useful for your analysis,
+* An operating center (tab [myVM](https://biosphere.france-bioinformatique.fr/cloud)) to manage your cloud deployments with single virtual machines (VM) or complex applications with multiple VM
+* A [data center](https://biosphere.france-bioinformatique.fr/catalogue/data) where you will find common public data available in the clouds.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The RAINBio catalogue
 
-```markdown
-Syntax highlighted code block
+### Use the cloud
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Current infrastructure
 
-1. Numbered
-2. List
+Biosphere already gathers five academic clouds deployed in regional IFB platforms:
+* [IFB-core](https://www.france-bioinformatique.fr/fr/core)
+* [GenOuest](https://www.france-bioinformatique.fr/fr/plateformes/genouest)
+* [PRABI-LBBE](https://www.france-bioinformatique.fr/fr/plateformes/prabi-doua)
+* [BiRD](https://www.france-bioinformatique.fr/fr/plateformes/bird)
+* [BIstrO](https://www.france-bioinformatique.fr/fr/plateformes/bistro)
 
-**Bold** and _Italic_ and `Code` text
+You can follow the current status of the infrastructure on the [Support page](https://biosphere.france-bioinformatique.fr/cloud/system_status) of the Biosphere portal.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IFB-ElixirFr/biosphere/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Other clouds are under deployment and will be added to the federation once operationnal: [GenoToul-Bioinfo](https://www.france-bioinformatique.fr/fr/plateformes/genotoul), [RPBS](https://www.france-bioinformatique.fr/fr/plateformes/rpbs), [PSMN ENSL-Lyon](http://www.ens-lyon.fr/PSMN/doku.php).
