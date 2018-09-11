@@ -3,15 +3,19 @@
 
 @import "{{ site.theme }}";
 
+.wrapper {
+  width:960px;
+}
+
 header {
-  width:200px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  width:170px;
 }
 
 section {
-  width:700px;
-  float:right;
-  padding-bottom:50px;
+  width:600px;
+}
+
+
+footer {
+  width:170px;
 }
