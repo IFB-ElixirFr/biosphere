@@ -10,7 +10,9 @@ The Biosphere portal provides different high-level cloud interfaces to analyze y
 
 ### Using the cloud
 
-First, you have to ask an account. 
+First, you need to ask for an account, and get membership of an active group.
+Then, you will need to set up your personnal parameter.
+And finally, you are ready to launch your virtual machines (VM) from the RAINBio catalogue.
 
 #### Sign in
 
@@ -51,16 +53,32 @@ To configure your SSH parameters:
 
 You can find your SSH PubKey from
 
-* **Linux and MacOS**: in a terminal execute `cat $HOME/.ssh/id_rsa.pub` 
+* **Linux and MacOS**: in a terminal execute `cat $HOME/.ssh/id_rsa.pub`.
+If you do not have already an SSH key, create one with `ssh-keygen -t rsa`.
 
 * **MS-Windows**: Open the tool PuTTYgen from the Start menu
   1. Choose "SSH-2 RSA" in the bottom and click on `Generate`.
   2. Click on the "Save private key" button to save the *Private key* in a file called ClePriv-PUTTY on the Desktop.
+  This file will be used to SSH-connect to your VM with PuTTY. Add it to the PuTTY configuration in the field at
+  "Connection->SSH->Auth-> Private key file for authetincation".
   3. Do also menu "Conversions -> Export OpenSSH key", and save it in a file called ClePriv-SSH, also on the Desktop.
-  You will need to connect with the X2Go tool to acces a remote dekstop of a VM.
+  You will need it to connect with the X2Go tool to access a remote dekstop of a VM.
   4. And finaly copy the PubKey from the "Public Key for pasting into OpenSSH (...)" at the top of the window.
   You can then copy it in the SSH PubKey field of your Biosphere account parameters.
-  
+
+#### Connect to your VM
+
+Once the deployment of your VM is done successfully, you can get all info from the **myVM** tab of the biosphere portal
+[[go](https://biosphere.france-bioinformatique.fr/cloud)]. Especially, the column Access will show you howto connect to your VM
+
+* **http**: click on the link to go on the web portal provided by your VM.
+
+* **ssh**: click on the link to connect by SSH to to your VM, or copy-paste the link in a terminal.
+
+**WARNING**: The SSH instruction is valid only for Linux and MacOS computers. For Windows PC, you will need to to copy the IP/hostname of your VM and paste it in the configuration of the PuTTY tool:
+  * in the field "Session -> HostName (orIP address)"
+  * and select "SSH" for the "Connection type"
+
 ### Current infrastructure
 
 Biosphere already gathers five academic clouds deployed in regional IFB platforms:
