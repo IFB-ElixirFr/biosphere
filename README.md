@@ -58,7 +58,7 @@ There are different way to connect to virtual machines: command line interface (
 
 Simply click on the **http** link to be redirected to the web portal provided by your VM.
 
-### Connect with SSH of VMs
+### Connect with SSH to VMs
 
 #### Instructions for Linux and MacOS users
 
