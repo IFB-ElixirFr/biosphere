@@ -84,7 +84,7 @@ Before creating the VM with SSH access, you need to configure your SSH parameter
 
 2. Click the Edit button
 
-3. Getting your SSH PubKey:
+3. Get your SSH PubKey:
 
   * **Linux and MacOS**: in a terminal execute `cat $HOME/.ssh/id_rsa.pub`.
 If you do not have already an SSH key, create one with `ssh-keygen -t rsa`.
