@@ -4,11 +4,15 @@ Biosphere provides multi-cloud deployment that help for example to combine large
 
 The Biosphere portal provides different high-level cloud interfaces to analyze your data:
 
-* The [RAINBio](https://biosphere.france-bioinformatique.fr/catalogue) catalogue to select the bioinformatics cloud appliances, useful for your analysis,
-* An operating center (tab [myVM](https://biosphere.france-bioinformatique.fr/cloud)) to manage your cloud deployments with single virtual machines (VM) or complex applications with multiple VM
-* A [data center](https://biosphere.france-bioinformatique.fr/catalogue/data) where you will find common public data available in the clouds.
+![Biosphere portal top banner](https://raw.githubusercontent.com/IFB-ElixirFr/biosphere/master/assets/img/biosphere-portal-top.png)
 
-To use the clouds of IFB-Biosphere, you need to ask for an account, and get membership of an active group. Then, you will need to set up your personnal parameters. And finally, you are ready to launch your virtual machines (VM) from the RAINBio catalogue.
+* [1] The [RAINBio](https://biosphere.france-bioinformatique.fr/catalogue) catalogue to select the bioinformatics cloud appliances, useful for your analysis,
+* [2] An operating center (tab [myVM](https://biosphere.france-bioinformatique.fr/cloud)) to manage your cloud deployments with single virtual machines (VM) or complex applications with multiple VM
+* [3] A [data center](https://biosphere.france-bioinformatique.fr/catalogue/data) where you will find common public data available in the clouds.
+
+To use the clouds of IFB-Biosphere, you need to ask for an account, and get membership of an active group. Then, you will need to set up your personnal parameters [5]. And finally, you are ready to launch your virtual machines (VM) from the RAINBio catalogue.
+
+Online and system status are available in the Support menu [4].
 
 *N.B.: To use the IFB clouds, you will need at least a recent Web browser to access the Biosphere portal, and your VM providing a web interface*
 
@@ -32,37 +36,44 @@ Take care when you fill these two steps because it will help to keep the validat
 
 Pre-defined bioinformatics environment ('appliances') are available from the [RAINBio](https://biosphere.france-bioinformatique.fr/catalogue) catalogue. You can from there deploy your virtual environment with a single VM or several. To identify the relevant appliances, you can filter the available ones with keywords, name of tools, topics,...
 
-Each appliance is shortly described in a box with the list of tools and topics associated to it. There are also several actions directly usable through the following icons:
-- 'star': to record it in your favorites,
-- 'lightning': to start it quickly with default parameters (default cloud, default size),
-- 'wrench': to configure your deployment, for example to change the used cloud and the size of the VM,
-- '+': to display an detailled view of the appliance (you can also click on the name of the appliance).
+Each appliance is shortly described in a box, like in the following example. The list of integrated tools and associated topics are summarized in the box [4]. There are also several actions directly usable through the following icons:
+
+![Biosphere portal RAINBio box example](https://github.com/IFB-ElixirFr/biosphere/raw/master/assets/img/rainbio-box.png)
+
+- [1] 'star': to record it in your favorites,
+- [2] 'lightning': to start it quickly with default parameters (default cloud, default size),
+- [3] 'wrench': to configure your deployment, for example to change the used cloud and the size of the VM,
+- [5] '+': to display an detailled view of the appliance (you can also click on the name of the appliance).
 
 ### Connect to your virtual machines
 
-Once the deployment of your VM is done successfully, you can get all info from the **myVM** tab of the biosphere portal
-[[go](https://biosphere.france-bioinformatique.fr/cloud)]. Especially, the column Access will show you howto connect to your VM
+There are different way to connect to virtual machines: command line interface (CLI) with SSH tool, web interface (HTTP) or remote graphical desktop (X2Go). Once the deployment of your VM is done successfully, you can get all access infromations from the **myVM** tab of the biosphere portal
+[[go](https://biosphere.france-bioinformatique.fr/cloud)], where the column **Access** provides you with details.
 
-* **http**: click on the link to go on the web portal provided by your VM.
+#### Connect to the web interface of VMs
 
-* **ssh**: click on the link to connect by SSH to to your VM, or copy-paste the link in a terminal. Be sure to have set up your SSH PubKey before creating the VM, as explained in the chapter about setting your SSH parameters.
+Simply click on the **http** link to be redirected to the web portal provided by your VM.
 
-These SSH instruction is valid only for Linux and MacOS computers. For Windows PC, you will need to to copy the IP/hostname of your VM (click on the question mark to get it), and paste it in the configuration of the PuTTY tool:
+#### Connect with SSH of VMs
+
+You can click on the **ssh** link to be redirected to the terminal with an automatic SSH connection to  your VM.
+
+##### Instructions for Linux and MacOS users
+
+SSH client is installed by default in any computer using Linux (CentOS, Ubuntu, Debian,...) or MacOS. And these SSH instructions works for most most of them. An alternative is to copy-paste the link in a terminal, with replacing the '://' by ' ' in the command.
+
+##### Instructions for Windows PC users
+
+You need to install the tool PuTTY available from its web site [PuTTY web site](http://www.putty.org/),
+where you will find also the download and installation instructions. Take care to use the MSI (‘Windows Installer’).
+
+You will need to to copy the IP/hostname of your VM (click on the question mark to get it), and paste it in the configuration of the PuTTY tool:
   * in the field "Session -> HostName (orIP address)"
   * and select "SSH" for the "Connection type"
 
+##### Setting your SSH parameters
 
-*Software requirements*
-
-To connect to your VM with the Linux command line interface (CLI), you will do it with a secure shell (SSH), and require an SSH client.
-Such software tool is installed by default in any computer using Linux (CentOS, Ubuntu, Debian,...) or MacOS.
-But for Microsoft Windows computer, you will need to install the tool PuTTY available from its web site [PuTTY web site](http://www.putty.org/),
-where you will find also the download and installation instructions. Take care to use the MSI (‘Windows Installer’). 
-
-
-#### Setting your SSH parameters
-
-To configure your SSH parameters:
+Before creating the VM with SSH access, you need to configure your SSH parameters.
 
 1. Open your account parameters page from the user menu in the top-right corner of the Biopshere portal
 [[go](https://biosphere.france-bioinformatique.fr/cloudweb_account/settings/)].
