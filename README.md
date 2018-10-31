@@ -60,11 +60,11 @@ Simply click on the **http** link to be redirected to the web portal provided by
 
 ### Connect with SSH of VMs
 
-You can click on the **ssh** link to be redirected to the terminal with an automatic SSH connection to  your VM.
-
 #### Instructions for Linux and MacOS users
 
-SSH client is installed by default in any computer using Linux (CentOS, Ubuntu, Debian,...) or MacOS. And these SSH instructions works for most most of them. An alternative is to copy-paste the link in a terminal, with replacing the '://' by ' ' in the command.
+SSH client is installed by default in any computer using Linux (CentOS, Ubuntu, Debian,...) or MacOS. 
+
+You can click on the **ssh** link to be redirected to the terminal with an automatic SSH connection to  your VM. It will work for most most Linux and for MacOS. An alternative is to copy-paste the link in a terminal, with replacing the '://' by ' ' in the command.
 
 #### Instructions for Windows PC users
 
