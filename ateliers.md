@@ -58,7 +58,7 @@ L'inscription est gratuite mais obligatoire. Le nombre de participants est limit
 Clôture des inscriptions : 6 mars 2019.
 [Formulaire](https://evento.renater.fr/survey/journees-cloud-ifb-biosphere-lyon-12-13-mars-2019-yguffdi9)
 
-Plateforme PRABI-LBBE, 43 bd du 11 novembre 1918, 69622 VILLEURBANNE cedex, Campus LyonTech-la Doua.
+**Plateforme PRABI-LBBE**, 43 bd du 11 novembre 1918, 69622 VILLEURBANNE cedex, Campus LyonTech-la Doua.
 [Accès](https://www.univ-lyon1.fr/campus/plan-des-campus/)
 
 
@@ -67,7 +67,7 @@ Plateforme PRABI-LBBE, 43 bd du 11 novembre 1918, 69622 VILLEURBANNE cedex, Camp
 Clôture des inscriptions : 11 mars 2019.
 [Formulaire](https://evento.renater.fr/survey/journees-cloud-ifb-biosphere-rennes-19-20-mars-2019-ogy4k3u6)
 
-Plateforme GenOuest, IRISA Rennes, Campus de Beaulieu, 263 avenue du Général Leclerc, 
+**Plateforme GenOuest**, IRISA Rennes, Campus de Beaulieu, 263 avenue du Général Leclerc, 
 35 042 RENNES cedex.
 [Accès](http://www.irisa.fr/fr/plan-acces)
 
