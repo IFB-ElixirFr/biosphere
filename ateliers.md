@@ -52,7 +52,7 @@ Inscription
 
 L'inscription est gratuite mais obligatoire. Le nombre de participants est limité à 20 par session, les inscriptions seront prises dans l'ordre des demandes.
 
-1. **Session de Lyon, 12-13 mars 2019**
+* **Session de Lyon, 12-13 mars 2019**
 
 [Formulaire](https://evento.renater.fr/survey/journees-cloud-ifb-biosphere-lyon-12-13-mars-2019-yguffdi9).
 Clôture des inscriptions : 6 mars 2019.
@@ -60,7 +60,7 @@ Clôture des inscriptions : 6 mars 2019.
 **Plateforme PRABI-LBBE**, 43 bd du 11 novembre 1918, 69622 VILLEURBANNE cedex, Campus LyonTech-la Doua.
 [Accès](https://www.univ-lyon1.fr/campus/plan-des-campus/)
 
-2. **Session de Rennes, 19-20 mars 2019**
+* **Session de Rennes, 19-20 mars 2019**
 
 [Formulaire](https://evento.renater.fr/survey/journees-cloud-ifb-biosphere-rennes-19-20-mars-2019-ogy4k3u6).
 Clôture des inscriptions : 11 mars 2019.
