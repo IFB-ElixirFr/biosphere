@@ -1,11 +1,17 @@
 ## Connect to your virtual machines
 
-There are different way to connect to virtual machines: command line interface (CLI) with SSH tool, web interface (HTTP) or remote graphical desktop (X2Go). Once the deployment of your VM is done successfully, you can get all access infromations from the **myVM** tab of the biosphere portal
-[[go](https://biosphere.france-bioinformatique.fr/cloud)], where the column **Access** provides you with details.
+There are different way to interact with your virtual machines:
+* with the command line interface (CLI) through a terminal window or graphical SSH tools (PuTTY, MobaXterm...).
+* in order to transfer data to and from you VM, with command line tools (scp, sftp) of graphical tools (FileZilla, CyberDuck, Transmit...)
+* with a web interface (HTTP) for web-enabled cloud appliances, for example RStudio, Jupyter Notebooks. Such applications also generally includes features to upload and donwload data throug a web interface.
+* with a remote graphical desktop (X2Go).
+
+Once the deployment of your VM is done successfully, you can get all connection parameters from the **myVM** tab of the biosphere portal
+[[go](https://biosphere.france-bioinformatique.fr/cloud)], in the column **Access**. The mosy usefull parameters are mainly the `username` and the `IP address` of your VM.
 
 ### Connect to the web interface of VMs
 
-Simply click on the **http** link to be redirected to the web portal provided by your VM.
+Simply click on the **http** link to be redirected to the web portal provided by your VM. In some cases you may need to know the `username:password` or a access token that will be provided through a parameters field (Params) in the Access column.
 
 ### Connect with SSH to VMs
 
@@ -44,9 +50,30 @@ If you do not have already an SSH key, create one with `ssh-keygen -t rsa`.
   This file will be used to SSH-connect to your VM with PuTTY. Add it to the PuTTY configuration in the field at
   "Connection->SSH->Auth-> Private key file for authetincation".
     3. Do also menu "Conversions -> Export OpenSSH key", and save it in a file called ClePriv-SSH, also on the Desktop.
-  You will need it to connect with the X2Go tool to access a remote dekstop of a VM.
-    4. And finaly copy the PubKey from the "Public Key for pasting into OpenSSH (...)" at the top of the window.
-  You can then copy it in the SSH PubKey field of your Biosphere account parameters.
+  You will need it to connect for example with the X2Go tool to access the remote dekstop of a VM, or FileZila to tranfer data to/from the VM.
+    4. And finaly copy the PubKey from the "Public Key for pasting into OpenSSH (...)" at the top of the window, that you will paste in the SSH PubKey field of your Biosphere account parameters.
 
-4. Paste your SSH PubKey (public key) in the related field. You can paste several PubKey but
+4. Paste your SSH PubKey (public key) in the related field of your Biosphere account parameters. You can paste several PubKey but
 **be careful that each PubKey is on one line only**
+
+### Transfer data with your VM
+
+Cloud appliances providing a web interface usually includes upload and download features through web forms, for example RStudio and Jupyter Notebooks.
+
+With appliances providing SSH-based access or a remote remote graphical desktop, you can transfer you data through a terminal window with the common command line tools scp and sftp (see related user manuals and man pages for usage), or with the following graphical tools according to the operating system of your computer (see each tool User Guide for usage and configuration).
+
+* **Linux**
+  - FileZilla (https://filezilla-project.org)
+
+* **MacOS**
+  - CyberDuck (https://cyberduck.io)
+  - Transmit (https://panic.com/transmit/
+  - FileZilla (https://filezilla-project.org)
+
+* **MS-Windows**:
+  - FileZilla (https://filezilla-project.org)
+  - MobaXterm (https://mobaxterm.mobatek.net)
+  - the embedded Ubuntu available from Windows 10 [[details](https://docs.microsoft.com/en-us/windows/wsl/install-win10)]
+
+
+
