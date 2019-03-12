@@ -7,7 +7,7 @@ Actuellement, le cloud IFB comporte plus de 5 000 cœurs de calcul et 26 téraoc
 
 Nous vous proposons de venir découvrir l'offre de service cloud de l'IFB lors des deux prochaines sessions prévues pour le premier trimestre 2019 à des dates et lieux différents. Les deux premiers ateliers se tiendront sur deux plates-formes de l'IFB activement impliquées dans le cloud IFB-Biosphère.
 
-1. Session de Lyon, PRABI-LBBE, 12-13 mars 2019
+1. [Session de Lyon](https://gitlab.in2p3.fr/ifb-biosphere/les-ateliers/blob/master/README.md), PRABI-LBBE, 12-13 mars 2019
 2. Session de Rennes, GenOuest, 19-20 mars 2019
 
 Chaque atelier se tiendra sur deux jours de 9h30 à 17h30. Au cours de la première journée, vous bénéficierez d'une introduction à l'architecture du cloud IFB-Biosphère et à son utilisation courante, ainsi que de la présentation des bonnes pratiques pour une utilisation avancée. Les points abordés iront de l'installation de nouveaux outils, à l'utilisation de pipelines et workflows, et à l'intégration avancée des outils bioinformatiques pour la création d'appliances. La seconde journée (facultative) sera consacrée à l'intégration d'outils et pipelines apportés par des participants volontaires, en collaboration avec les autres participants et formateurs cloud présents.
