@@ -1,36 +1,19 @@
-## Connect to your virtual machines
+## Connecting to your virtual machines
 
 There are different way to interact with your virtual machines:
 * with the command line interface (CLI) through a terminal window or graphical SSH tools (PuTTY, MobaXterm...).
-* in order to transfer data to and from you VM, with command line tools (scp, sftp) of graphical tools (FileZilla, CyberDuck, Transmit...)
-* with a web interface (HTTP) for web-enabled cloud appliances, for example RStudio, Jupyter Notebooks. Such applications also generally includes features to upload and donwload data throug a web interface.
+* with a web interface (HTTP) for web-enabled cloud appliances, for example RStudio, Jupyter Notebooks. 
 * with a remote graphical desktop (X2Go).
 
 Once the deployment of your VM is done successfully, you can get all connection parameters from the **myVM** tab of the biosphere portal
 [[go](https://biosphere.france-bioinformatique.fr/cloud)], in the column **Access**. The mosy usefull parameters are mainly the `username` and the `IP address` of your VM.
 
-### Connect to the web interface of VMs
+### Connecting to the web interface of VMs
 
 Simply click on the **http** link to be redirected to the web portal provided by your VM. In some cases you may need to know the `username:password` or a access token that will be provided through a parameters field (Params) in the Access column.
 
-### Connect with SSH to VMs
 
-#### Instructions for Linux and MacOS users
-
-SSH client is installed by default in any computer using Linux (CentOS, Ubuntu, Debian,...) or MacOS. 
-
-You can click on the **ssh** link to be redirected to the terminal with an automatic SSH connection to  your VM. It will work for most most Linux and for MacOS. An alternative is to copy-paste the link in a terminal, with replacing the '://' by ' ' in the command.
-
-#### Instructions for Windows PC users
-
-You need to install the tool PuTTY available from its web site [PuTTY web site](http://www.putty.org/),
-where you will find also the download and installation instructions. Take care to use the MSI (‘Windows Installer’).
-
-You will need to to copy the IP/hostname of your VM (click on the question mark to get it), and paste it in the configuration of the PuTTY tool:
-  * in the field "Session -> HostName (orIP address)"
-  * and select "SSH" for the "Connection type"
-
-#### Setting your SSH parameters
+### Connecting with SSH to VMs
 
 Before creating the VM with SSH access, you need to configure your SSH parameters.
 
@@ -56,24 +39,20 @@ If you do not have already an SSH key, create one with `ssh-keygen -t rsa`.
 4. Paste your SSH PubKey (public key) in the related field of your Biosphere account parameters. You can paste several PubKey but
 **be careful that each PubKey is on one line only**
 
-### Transfer data with your VM
-
-Cloud appliances providing a **web interface** usually includes upload and download features through web forms, for example RStudio and Jupyter Notebooks.
-
-With appliances providing **SSH-based access** or a **remote remote graphical desktop**, you can transfer you data through a terminal window with the common command line tools scp and sftp (see related user manuals and man pages for usage), or with the following graphical tools according to the operating system of your computer (see each tool User Guide for usage and configuration). They all rely on the SSH protocol and will use the PubKey you put in your cloud-profile parameters previously (*Do not forget to set it up in the configuration parameters of the following graphical tools*).
-
-* **Linux**
-  - FileZilla (https://filezilla-project.org)
-
-* **MacOS**
-  - CyberDuck (https://cyberduck.io)
-  - Transmit (https://panic.com/transmit/
-  - FileZilla (https://filezilla-project.org)
-
-* **MS-Windows**:
-  - FileZilla (https://filezilla-project.org)
-  - MobaXterm (https://mobaxterm.mobatek.net)
-  - the embedded Ubuntu available from Windows 10 [[details](https://docs.microsoft.com/en-us/windows/wsl/install-win10)]
 
 
+#### Connection instructions for Linux and MacOS users
+
+SSH client is installed by default in any computer using Linux (CentOS, Ubuntu, Debian,...) or MacOS. 
+
+You can click on the **ssh** link to be redirected to the terminal with an automatic SSH connection to  your VM. It will work for most most Linux and for MacOS. An alternative is to copy-paste the link in a terminal, with replacing the '://' by ' ' in the command.
+
+#### Connection Instructions for Windows PC users
+
+You need to install the tool PuTTY available from its web site [PuTTY web site](http://www.putty.org/),
+where you will find also the download and installation instructions. Take care to use the MSI (‘Windows Installer’).
+
+You will need to to copy the IP/hostname of your VM (click on the question mark to get it), and paste it in the configuration of the PuTTY tool:
+  * in the field "Session -> HostName (orIP address)"
+  * and select "SSH" for the "Connection type"
 
