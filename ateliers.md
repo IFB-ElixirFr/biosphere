@@ -7,12 +7,12 @@ Actuellement, le cloud IFB comporte plus de 5 000 cœurs de calcul et 26 téraoc
 
 Nous vous proposons de venir découvrir l'offre de service cloud de l'IFB lors des deux prochaines sessions prévues pour le premier trimestre 2019 à des dates et lieux différents. Les deux premiers ateliers se tiendront sur deux plates-formes de l'IFB activement impliquées dans le cloud IFB-Biosphère.
 
-1. [Session de Lyon](https://gitlab.in2p3.fr/ifb-biosphere/les-ateliers/blob/master/README.md), PRABI-LBBE, 12-13 mars 2019
+1. [Session de Lyon](https://gitlab.in2p3.fr/ifb-biosphere/les-ateliers/blob/master/session-1903-lyon/README.md), PRABI-LBBE, 12-13 mars 2019
 2. Session de Rennes, GenOuest, 19-20 mars 2019
 
 Chaque atelier se tiendra sur deux jours de 9h30 à 17h30. Au cours de la première journée, vous bénéficierez d'une introduction à l'architecture du cloud IFB-Biosphère et à son utilisation courante, ainsi que de la présentation des bonnes pratiques pour une utilisation avancée. Les points abordés iront de l'installation de nouveaux outils, à l'utilisation de pipelines et workflows, et à l'intégration avancée des outils bioinformatiques pour la création d'appliances. La seconde journée (facultative) sera consacrée à l'intégration d'outils et pipelines apportés par des participants volontaires, en collaboration avec les autres participants et formateurs cloud présents.
 
-Le comité d'organisation (IFB-core, PRABI-LBBE et GenOuest)
+Le comité d'organisation (IFB-core, PRABI-LBBE et GenOuest, [contact](mailto:biosphere-support@genouest.org?subject=A%20propos%20des%20ateliers%20Biosphère))
 
 Programme
 ---------
@@ -44,6 +44,8 @@ Travail en commun sur l'intégration de vos outils et pipelines, en collaboratio
 
 12h30 : Déjeuner (libre)
 
+17h00 : Bilan des développements
+
 17h30 : Fin de la journée
 
 
@@ -51,15 +53,6 @@ Inscription
 -----------
 
 L'inscription est gratuite mais obligatoire. Le nombre de participants est limité à 20 par session, les inscriptions seront prises dans l'ordre des demandes.
-
-* **Session de Lyon, 12-13 mars 2019**
-
-Les inscriptions sont closes.
-<!--[Formulaire](https://evento.renater.fr/survey/atelier-cloud-ifb-biosphere-lyon-12-13-mars-2019-yguffdi9).
-Clôture des inscriptions : 6 mars 2019.-->
-
-**Plateforme PRABI-LBBE**, 43 bd du 11 novembre 1918, 69622 VILLEURBANNE cedex, Campus LyonTech-la Doua.
-[Accès](https://www.univ-lyon1.fr/campus/plan-des-campus/)
 
 * **Session de Rennes, 19-20 mars 2019**
 
