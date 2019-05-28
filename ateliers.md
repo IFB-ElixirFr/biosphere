@@ -54,13 +54,16 @@ Inscription
 
 L'inscription est gratuite mais obligatoire. Le nombre de participants est limité à 20 par session, les inscriptions seront prises dans l'ordre des demandes.
 
-* **Session de Rennes, 19-20 mars 2019**
+**Pas de session ouverte actuellement**
+
+<!--
+*Session de Rennes, 19-20 mars 2019
 
 Les inscriptions sont closes.
-<!--[Formulaire](https://evento.renater.fr/survey/atelier-cloud-ifb-biosphere-rennes-19-20-mars-2019-ogy4k3u6).
-Clôture des inscriptions : 11 mars 2019.-->
+[Formulaire](https://evento.renater.fr/survey/atelier-cloud-ifb-biosphere-rennes-19-20-mars-2019-ogy4k3u6).
+Clôture des inscriptions : 11 mars 2019
 
 **Plateforme GenOuest**, IRISA Rennes, Campus de Beaulieu, 263 avenue du Général Leclerc, 
 35 042 RENNES cedex.
 [Accès](http://www.irisa.fr/fr/plan-acces)
-
+-->
