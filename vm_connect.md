@@ -41,7 +41,7 @@ First, you need to install the X2Go client on your own local computer: [X2Go dow
 Second, you get the connection parameters for the VM in the `Params` fields of the column `Access` (tab **myVM**).
 - the username
 - the IP/hostname of the VM
-- the session type (usually MATE for Ubuntu)
+- the session type (usually XFCE for Ubuntu)
 
 Third, you configure a session in X2Go client with these parameters (see [X2Go usage instructions](https://wiki.x2go.org/doku.php/doc:usage:x2goclient)). The required ones are:
 - the `username`
