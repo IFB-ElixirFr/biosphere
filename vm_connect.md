@@ -25,7 +25,11 @@ You can click on the **ssh** link to be redirected to the terminal with an autom
 
 #### SSH Instructions for Windows PC users
 
-You need first to install the tool PuTTY (see [download instructions](http://www.putty.org/)
+We describe here the use of PuTTY, which will be also useful to connect to a remote desktop with X2Go (see below). 
+
+**N.B.:** *From Windows 10 release, you can also use the Linux Bash Shell based on Ubuntu (see [install instructions](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)). Then, you need to follow the Get your SSH PubKey for Linux below (in Annex).*
+
+To use PuTTY, you need first to install it on your machine (see [download instructions](http://www.putty.org/)
 where you will find both the download and installation instructions). Take care to use the MSI (‘Windows Installer’).
 
 Then you have to copy the IP/hostname of your deployed VM (click on the question mark `?` next to the name of the VM), and paste it in the configuration of the PuTTY tool:
@@ -36,7 +40,10 @@ Then you have to copy the IP/hostname of your deployed VM (click on the question
 
 Before creating the VM with SSH access, you need to **configure your SSH parameters** (see Annex below).
 
-First, you need to install the X2Go client on your own local computer: [X2Go download instructions](https://wiki.x2go.org/doku.php/doc:installation:x2goclient).
+First, you need to install the requirement on your own local computer:
+* [All OS] Install the X2Go client: [X2Go download instructions](https://wiki.x2go.org/doku.php/doc:installation:x2goclient).
+* [MacOS] Install the X server [Xquartz]()
+* [MS Windows with Ubuntu Bash] Install one X server : [VcXsrv](https://sourceforge.net/projects/vcxsrv) or [Xming](https://sourceforge.net/projects/xming/)
 
 Second, you get the connection parameters for the VM in the `Params` fields of the column `Access` (tab **myVM**).
 - the username
@@ -59,14 +66,14 @@ Third, you configure a session in X2Go client with these parameters (see [X2Go u
 
 3. Get your SSH PubKey:
 
-  * **Linux and MacOS**: in a terminal execute `cat $HOME/.ssh/id_rsa.pub`.
+  * **Linux, MacOS, Win10 with Linux Bash Shell**: in a terminal execute `cat $HOME/.ssh/id_rsa.pub`.
 If you do not have already an SSH key, create one with `ssh-keygen -t rsa`.
 
-  * **MS-Windows**: Open the tool PuTTYgen from the Start menu
+  * **MS-Windows with PuTTY**: Open the tool PuTTYgen from the Start menu
     1. Choose `SSH-2 RSA` in the bottom and click on `Generate`.
     2. Click on the `Save private key` button to save the *Private key* in a file called ClePriv-PUTTY on the Desktop.
   This file will be used to SSH-connect to your VM with PuTTY. Add it to the PuTTY configuration in the field at
-  `Connection->SSH->Auth-> Private key file for authetincation`.
+  `Connection->SSH->Auth-> Private key file for authentication`.
     3. Do also menu `Conversions -> Export OpenSSH key`, and save it in a file called ClePriv-SSH, also on the Desktop.
   You will need it to connect for example with the X2Go tool to access the remote dekstop of a VM, or FileZila to tranfer data to/from the VM.
     4. And finaly copy the PubKey from the `Public Key for pasting into OpenSSH (...)` at the top of the window, that you will paste in the SSH PubKey field of your Biosphere account parameters.
