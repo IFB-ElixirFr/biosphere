@@ -1,6 +1,6 @@
 L'IFB soutient les formations (cursus universitaires, ecoles scientifiques, formations permanentes, workshops, hackathons...) par la fourniture de l’infractructure bio-informatique et informatique avec des machines virtuelles dédiées, et par une assistance pour la préparation de l’environnement logiciel.
 
-# Création d'un groupe formation dédié à la formation 
+## Création d'un groupe formation dédié à la formation 
 
 Il vous suffit de remplir une demande pour cette formation dans le portail Biosphère :
 
@@ -24,7 +24,7 @@ Les élèves pourront demander un compte cloud avec leurs identifiants académiq
 
 Chaque élève pourra avec son compte déployer ses propres VMs suivant ses besoins et les recommandations des enseignants, en choisissant la taille de ses VMs en fonction de ses besoins. Cela peut être 1 CPU et 4 Go de RAM pour un premier exercice, puis 16 vCPUs et 64 Go RAM lors d’exercices plus gourmands. 
 
-# Des environnements dédiés
+## Des environnements dédiés
 
 Les VMs des élèves seront construites automatiquement avec les modèles existants dans notre catalogue RAINBio (https://biosphere.france-bioinformatique.fr/catalogue), ou avec un nouveau modèle défini pour la formation.
 
@@ -32,7 +32,7 @@ Les environnements disponibles vont d'un serveur linux de base (ubuntu, debian, 
 
 Pour la création d'une nouvelle appliance cloud dans le catalogue RAINBio, vous pouvez nous contacter sur notre adresse support (biosphere-support@genouest.org), nous pouvons vous aider.
 
-# Une infrastructure distribué et redondante
+## Une infrastructure distribuée et redondante
 
 L’infrastructure cloud comprend plusieurs sites qui permettent de pallier une défaillance d’un des sites le jour de la formation.
 
