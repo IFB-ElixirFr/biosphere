@@ -9,7 +9,7 @@ Take care of the email address you enter because it will be use to contact you f
 For example, at the second step of the account request, an email message will be sent to this email address to validate it.  
 In case you have not anymore access to this email address, we will not be able to join you or help you to keep access to your IFB-Biosphere cloud account.
 
-Once your email have been validated, you will be asked to apply to join an affiliation [[go](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/add)]. If your affiliation is not already registered, you may ask to create it.
+Once your email have been validated, you will be asked to apply to join an affiliation [[go](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups)]. If your affiliation is not already registered, you may ask to create it.
 
 Both your request for an account and for the membership to an affiliation will be evaluate by the IFB committee before validation.
 Take care when you fill these two steps because it will help to keep the validation process going. In case of a clarification need, you will be contacted on the email address you enter. 

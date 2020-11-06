@@ -19,5 +19,6 @@ You can get the **current status and usage** of the infrastructure from the Supp
 [GenOuest](https://www.france-bioinformatique.fr/fr/plateformes/genouest),
 [PRABI-LBBE](https://www.france-bioinformatique.fr/fr/plateformes/prabi-doua),
 [BiRD](https://www.france-bioinformatique.fr/fr/plateformes/bird),
-[BIstrO](https://www.france-bioinformatique.fr/fr/plateformes/bistro).
-Other clouds under deployment will be added to the federation once operationnal: [GenoToul-Bioinfo](https://www.france-bioinformatique.fr/fr/plateformes/genotoul), [RPBS](https://www.france-bioinformatique.fr/fr/plateformes/rpbs), [PSMN ENSL-Lyon](http://www.ens-lyon.fr/PSMN/doku.php).
+[BIstrO](https://www.france-bioinformatique.fr/fr/plateformes/bistro),
+[Bilille](https://www.france-bioinformatique.fr/fr/plateformes/bilille).
+Other clouds under deployment will be added to the federation once operationnal: [AuBi](https://www.france-bioinformatique.fr/fr/plateformes/aubi), [GenoToul-Bioinfo](https://www.france-bioinformatique.fr/fr/plateformes/genotoul), [RPBS](https://www.france-bioinformatique.fr/fr/plateformes/rpbs), [PSMN ENSL-Lyon](http://www.ens-lyon.fr/PSMN/doku.php).
