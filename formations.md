@@ -2,9 +2,8 @@ L'IFB soutient les formations (cursus universitaires, ecoles scientifiques, form
 
 ## Création d'un groupe formation dédié à la formation 
 
-Il vous suffit de remplir une demande pour cette formation dans le portail Biosphère :
-
-https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2
+Il vous suffit de remplir une demande pour cette formation dans le portail Biosphère : 
+[formulaire](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2)
  
 Un groupe correspondant à cette formation sera créé dans Biosphère, et des ressources seront allouées (vCPU, RAM, stockage) en fonction de vos besoins et des ressources disponibles sur l'infrastructure.
 
@@ -26,16 +25,18 @@ Chaque élève pourra avec son compte déployer ses propres VMs suivant ses beso
 
 ## Des environnements dédiés
 
-Les VMs des élèves seront construites automatiquement avec les modèles existants dans notre catalogue RAINBio (https://biosphere.france-bioinformatique.fr/catalogue), ou avec un nouveau modèle défini pour la formation.
+Les VMs des élèves seront construites automatiquement avec les modèles existants dans notre [catalogue RAINBio](https://biosphere.france-bioinformatique.fr/catalogue), ou avec un nouveau modèle défini pour la formation.
 
 Les environnements disponibles vont d'un serveur linux de base (ubuntu, debian, centos) à des environnements plus complets avec des gestionnaires de workflows (Nextflow, Snakemake, CWLtool), un bureau graphique à distance ou des interfaces web (Jupyter, Rstudio/Shiny …).
 
-Pour la création d'une nouvelle appliance cloud dans le catalogue RAINBio, vous pouvez nous contacter sur notre adresse support (biosphere-support@genouest.org), nous pouvons vous aider.
+Pour la création d'une nouvelle appliance cloud dans le catalogue RAINBio, vous pouvez nous contacter sur notre [adresse support](mailto:biosphere-support@genouest.org), nous pouvons vous aider.
 
 ## Une infrastructure distribuée et redondante
 
-L’infrastructure cloud comprend plusieurs sites qui permettent de pallier une défaillance d’un des sites le jour de la formation.
+L’infrastructure cloud comprend plusieurs sites avec des ressources matérielles différents qui vous permettent : 
+1. de pallier une défaillance d’un des sites le jour de la formation,
+2. de trouver des ressources spécifiques comme par exemple des VMs avec beaucoup de mémoire ou de processeurs plus rapides.
 
-La liste des sites et leurs ressources sont visibles sur le portail Biopshère : https://biosphere.france-bioinformatique.fr/cloud/system_status
+La liste des sites et leurs ressources sont visibles sur le portail Biosphère dans la page d' [état du système](https://biosphere.france-bioinformatique.fr/cloud/system_status).
 
 
