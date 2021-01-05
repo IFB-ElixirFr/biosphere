@@ -14,11 +14,14 @@ The Biosphere portal provides different high-level cloud interfaces to analyze y
 
 To use the clouds of IFB-Biosphere, you need to ask for an account, and get membership of an active group. Then, you will need to set up your personnal parameters [5]. And finally, you are ready to launch your virtual machines (VM) from the RAINBio catalogue.
 
-You can get the **current status and usage** of the infrastructure from the Support menu [4]. Biosphere already gathers five academic clouds deployed in regional IFB platforms:
+You can get the **current status and usage** of the infrastructure from the Support menu [4].
+
+**Biosphere federates 8 academic clouds** deployed in regional IFB platforms:
 [IFB-core](https://www.france-bioinformatique.fr/fr/core),
 [GenOuest](https://www.france-bioinformatique.fr/fr/plateformes/genouest),
 [PRABI-LBBE](https://www.france-bioinformatique.fr/fr/plateformes/prabi-doua),
 [BiRD](https://www.france-bioinformatique.fr/fr/plateformes/bird),
 [BIstrO](https://www.france-bioinformatique.fr/fr/plateformes/bistro),
-[Bilille](https://www.france-bioinformatique.fr/fr/plateformes/bilille).
-Other clouds under deployment will be added to the federation once operationnal: [AuBi](https://www.france-bioinformatique.fr/fr/plateformes/aubi), [GenoToul-Bioinfo](https://www.france-bioinformatique.fr/fr/plateformes/genotoul), [RPBS](https://www.france-bioinformatique.fr/fr/plateformes/rpbs), [PSMN ENSL-Lyon](http://www.ens-lyon.fr/PSMN/doku.php).
+[Bilille](https://www.france-bioinformatique.fr/fr/plateformes/bilille),
+[PSMN ENSL-Lyon](http://www.ens-lyon.fr/PSMN/doku.php),
+[AuBi](https://www.france-bioinformatique.fr/fr/plateformes/aubi).
