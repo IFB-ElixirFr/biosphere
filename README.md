@@ -18,10 +18,10 @@ You can get the **current status and usage** of the infrastructure from the Supp
 
 **Biosphere federates 8 academic clouds** deployed in regional IFB platforms:
 [IFB-core](https://www.france-bioinformatique.fr/fr/core),
-[GenOuest](https://www.france-bioinformatique.fr/fr/plateformes/genouest),
-[PRABI-LBBE](https://www.france-bioinformatique.fr/fr/plateformes/prabi-doua),
-[BiRD](https://www.france-bioinformatique.fr/fr/plateformes/bird),
-[BIstrO](https://www.france-bioinformatique.fr/fr/plateformes/bistro),
-[Bilille](https://www.france-bioinformatique.fr/fr/plateformes/bilille),
+[GenOuest](https://ressources.france-bioinformatique.fr/fr/plateformes/genouest),
+[PRABI-LBBE](https://ressources.france-bioinformatique.fr/fr/plateformes/prabi-doua),
+[BiRD](https://ressources.france-bioinformatique.fr/fr/plateformes/bird),
+[BIstrO](https://ressources.france-bioinformatique.fr/fr/plateformes/bistro),
+[Bilille](https://ressources.france-bioinformatique.fr/fr/plateformes/bilille),
 [PSMN ENSL-Lyon](http://www.ens-lyon.fr/PSMN/doku.php),
-[AuBi](https://www.france-bioinformatique.fr/fr/plateformes/aubi).
+[AuBi](https://ressources.france-bioinformatique.fr/fr/plateformes/aubi).
