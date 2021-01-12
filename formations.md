@@ -21,7 +21,7 @@ Les formateurs pourront voir et gérer les VMs des élèves dans le tableau de b
 
 Les élèves pourront demander un compte cloud avec leurs identifiants académiques (par exemple de leur université ou de leur organisme de recherche), et leur adhésion au groupe de la formation.
 
-Chaque élève pourra avec son compte déployer ses propres VMs suivant ses besoins et les recommandations des enseignants, en choisissant la taille de ses VMs en fonction de ses besoins. Cela peut être 1 CPU et 4 Go de RAM pour un premier exercice, puis 16 vCPUs et 64 Go RAM lors d’exercices plus gourmands. 
+Chaque élève pourra avec son compte déployer ses propres VMs suivant ses besoins et les recommandations des enseignants, en choisissant la taille de ses VMs suivant les ressources disponibles sur les sites de l'infrastructure. Cela peut être 1 CPU et 4 Go de RAM pour un premier exercice, puis 16 vCPUs et 64 Go RAM lors d’exercices plus gourmands. 
 
 ## Des environnements dédiés
 
@@ -35,7 +35,7 @@ Pour la création d'une nouvelle appliance cloud dans le catalogue RAINBio, cont
 
 L’infrastructure cloud comprend plusieurs sites avec des ressources matérielles différentes qui vous permettent : 
 1. de basculer sur un autre site en cas de défaillance d’un des sites le jour de la formation,
-2. de trouver des ressources spécifiques comme par exemple des VMs avec beaucoup de mémoire ou de processeurs plus rapides.
+2. de trouver des ressources spécifiques comme par exemple des VMs avec beaucoup de mémoire ou des processeurs plus rapides.
 
 La liste des sites et leurs ressources sont visibles sur le portail Biosphère dans la page d'[état du système](https://biosphere.france-bioinformatique.fr/cloud/system_status).
 
