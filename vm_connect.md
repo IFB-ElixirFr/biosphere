@@ -41,7 +41,7 @@ Then you have to copy the IP/hostname of your deployed VM (click on the question
 Before creating the VM with SSH access, you need to **configure your SSH parameters** (see Annex below).
 
 First, you need to install the requirement on your own local computer:
-* [All OS] Install the X2Go client: [X2Go download instructions](https://wiki.x2go.org/doku.php/doc:installation:x2goclient).
+* [All OS] Install the X2Go client: [X2Go download instructions - chapter X2Go Client](https://wiki.x2go.org/doku.php/download:start).
 * [MacOS] Install the X server [Xquartz]()
 * [MS Windows with Ubuntu Bash] Install one X server : [VcXsrv](https://sourceforge.net/projects/vcxsrv) or [Xming](https://sourceforge.net/projects/xming/)
 
