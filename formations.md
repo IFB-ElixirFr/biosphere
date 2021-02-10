@@ -2,12 +2,12 @@ L'IFB soutient les formations (cursus universitaires, écoles scientifiques, for
 
 ## Création d'un groupe dédié à la formation 
 
-Il vous suffit de remplir une demande pour cette formation dans le portail Biosphère : 
+La **première étape consiste à remplir une demande d'appui** pour cette formation dans le portail Biosphère avec ce 
 [formulaire](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2).
  
 Un groupe correspondant à cette formation sera créé dans Biosphère, et des ressources seront allouées (vCPU, RAM, stockage) en fonction de vos besoins et des ressources disponibles sur l'infrastructure.
 
-Les formateurs et élèves pourront sélectionner ce groupe lors du déploiement des VMs relatives à cette formation (dans *Déploiement avancé*), ou le définir par défaut dans leur profil.
+Les formateurs et élèves pourront sélectionner ce groupe pour le déploiement des machines virtuelles (VMs) relatives à cette formation (dans *Déploiement avancé*, ou le définir par défaut dans leur profil).
 
 ## Fonctionnalités pour les formateurs
 
@@ -15,7 +15,7 @@ Les formateurs, que vous aurez indiqués, seront administrateurs de ce groupe et
 
 Les formateurs recevront pour chaque demande d'adhésion au groupe formation une notification par email et pourront valider les nouveaux comptes dans le portail Biosphère. Ces comptes élèves seront désactivés automatiquement à la fin de la formation.
 
-Les formateurs pourront voir et gérer les VMs des élèves dans le tableau de bord du portail Biosphère (page « myVM »), par exemple pour les arrêter à la fin de la formation si l’élève ne l’a pas fait.
+Les formateurs pourront voir et gérer les VMs des élèves dans le tableau de bord du portail Biosphère (page [myVM - Tout voir](https://biosphere.france-bioinformatique.fr/monitor)), par exemple pour les arrêter à la fin de la formation si l’élève ne l’a pas fait.
 
 ## Fonctionnalités pour les élèves
 
