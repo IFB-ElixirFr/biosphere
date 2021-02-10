@@ -15,7 +15,7 @@ Les formateurs, que vous aurez indiqués, seront administrateurs de ce groupe et
 
 Les formateurs recevront pour chaque demande d'adhésion au groupe formation une notification par email et pourront valider les nouveaux comptes dans le portail Biosphère. Ces comptes élèves seront désactivés automatiquement à la fin de la formation.
 
-Les formateurs pourront voir et gérer les VMs des élèves dans le tableau de bord du portail Biosphère (page [myVM - Tout voir](https://biosphere.france-bioinformatique.fr/monitor)), par exemple pour les arrêter à la fin de la formation si l’élève ne l’a pas fait.
+Les formateurs pourront voir et gérer les VMs des élèves dans le tableau de bord du portail Biosphère (page [myVM - Tout voir](https://biosphere.france-bioinformatique.fr/monitor)), par exemple pour les supprimer à la fin de la formation si l’élève ne l’a pas fait.
 
 ## Fonctionnalités pour les élèves
 

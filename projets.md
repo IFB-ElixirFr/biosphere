@@ -18,9 +18,9 @@ Les responsables de projet, tels qu'indiqués dans la demande, seront administra
 
 Les responsables de projet recevront pour chaque demande d'adhésion au groupe projet une notification par email et pourront valider les nouveaux comptes dans le portail Biosphère. Les comptes liés au projet seront désactivés automatiquement à la fin du projet.
 
-Les responsables de projet peuvent monitorer et gérer les environnements et VMs du projet dans le tableau de bord du portail Biosphère (page [myVM - Tout voir](https://biosphere.france-bioinformatique.fr/monitor)), par exemple pour les arrêter lorsque c'est nécessaire.
+Les responsables de projet peuvent monitorer et gérer les environnements et VMs du projet dans le tableau de bord du portail Biosphère (page [myVM - Tout voir](https://biosphere.france-bioinformatique.fr/monitor)), par exemple pour les supprimer lorsque c'est nécessaire.
 
-La consommation des ressources par les membres et leurs VMs seront imputées au projet. Un relevé de la consommation courante est mise à jour quotidiennement, et disponible dans la page du projet sur le portail Biosphère.
+La consommation des ressources par les membres et leurs VMs seront imputées au projet. Un relevé de la consommation courante est mis à jour quotidiennement, et disponible dans la page du projet sur le portail Biosphère.
 
 ## Fonctionnalités pour les membres du projet
 
