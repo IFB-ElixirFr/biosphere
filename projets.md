@@ -8,7 +8,7 @@ Cette demande doit être faite par la/le responsable administratif du projet (po
 responsable du stage...). Le porteur du projet devra également avoir un compte dans le cloud IFB.
 
 La demande de projet sera étudiée par l'IFB. En fonction de la décision du comité d'évaluation, les ressources attribuées et les modalités de prise en charge vous seront communiquées. La prise en charge des ressources pourra être de plusieurs types :
-- par une des plateformes participants à l'infrastructure sur son enveloppe de ressources,
+- par une des plateformes participant à l'infrastructure sur son enveloppe de ressources,
 - dans le cadre d'une collaboration scientifique,
 - sur facturation.
 
