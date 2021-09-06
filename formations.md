@@ -3,7 +3,7 @@ L'IFB soutient les formations (cursus universitaires, écoles scientifiques, for
 ## Création d'un groupe dédié à la formation 
 
 La **première étape consiste à remplir une demande d'appui** pour cette formation dans le portail Biosphère avec ce 
-[formulaire](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2).
+[formulaire](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2). La personne demandant le soutien devra également avoir un compte valide dans le cloud IFB, et avoir rejoint le groupe de son affiliation principale.
  
 Un groupe correspondant à cette formation sera créé dans Biosphère, et des ressources seront allouées (vCPU, RAM, stockage) en fonction de vos besoins et des ressources disponibles sur l'infrastructure.
 
