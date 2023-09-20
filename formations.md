@@ -1,5 +1,19 @@
 L'IFB soutient les formations (cursus universitaires, écoles scientifiques, formations permanentes, workshops, hackathons...) par la fourniture de l’infrastructure bio-informatique et informatique avec des machines virtuelles dédiées, et par une assistance pour la préparation de l’environnement logiciel.
 
+**Note importante :**
+Différentes constatations environnementales (préservation des ressources) ou économiques (coût de l’électricité) nous amènent à réfléchir sur notre usage du numérique. C'est pourquoi nous vous demandons de privilégier nos gabarits dédiés aux VMs de formation. Ces gabarits (‘ifb.tr.xxxx’, ’tr’ pour « training ») sont moins chargés en mémoire avec un ratio de 1 coeur pour 1 Go de RAM. Cela permet de mettre plus de VMs par serveur physique et donc de moins consommer d’électricité. 
+```
+ifb.tr.small (1c 1Go)
+ifb.tr.medium (2c 2Go)
+ifb.tr.large (4c 4Go)
+ifb.tr.xlarge (8c 8Go)
+ifb.tr.2xlarge (16c16Go)
+```
+
+En effet, on ne peut pas proposer plus de RAM dans les VMs que celle disponible sur le serveur physique, alors que pour les CPUs virtuels il est possible d’allouer 3 ou 4 fois plus que la taille des CPUs physiques. Or, dans les clouds IFB-Biosphère, les gabarits proposés pour les VMs ont été calibrés pour un usage intensif. C’est pourquoi le ratio est généralement équivalent à 1 coeur de calcul (1c) pour 4 Go de RAM.
+
+Les VMs déployées lors d’une formation ne sont pas forcément utilisées en permanence (étape de préparation, inter-cours…). Ainsi, lorsqu’un serveur est occupé par un grand nombre de VMs de formation, la taille totale en RAM est saturée mais pas les CPUs. **Or un serveur qui ne calcule pas consomme malgré tout la moitié de sa consommation électrique maximale**.
+
 ## Création d'un groupe dédié à la formation 
 
 La **première étape consiste à remplir une demande d'appui** pour cette formation dans le portail Biosphère avec ce 
