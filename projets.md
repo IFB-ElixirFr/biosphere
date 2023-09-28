@@ -4,8 +4,8 @@ L'IFB soutient les projets de recherche (régionaux, ANR, Europe...) par la four
 
 La **première étape consiste à remplir une demande d'appui** pour ce projet dans le portail Biosphère avec ce 
 [formulaire](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=3).
-Cette demande doit être faite par la/le responsable administratif du projet (porteur du projet ANR, chef d'équipe,
-responsable du stage...). La personne responsable du projet devra également avoir un compte valide dans le cloud IFB, et avoir rejoint le groupe de son affiliation principale.
+**Cette demande doit être faite par la/le responsable administratif du projet (porteur du projet ANR, chef d'équipe,
+responsable du stage...). La personne responsable du projet devra également avoir un compte valide dans le cloud IFB, et avoir rejoint le groupe de son affiliation principale.**
 
 La demande de projet sera étudiée par l'IFB. En fonction de la décision du comité d'évaluation, les ressources attribuées et les modalités de prise en charge vous seront communiquées. La prise en charge des ressources pourra être de plusieurs types :
 - par une des plateformes participant à l'infrastructure sur son enveloppe de ressources,
