@@ -24,3 +24,8 @@ img {
 .md-typeset h2,.md-typeset h3 {
     color: rgb(13, 127, 227);
  }   
+
+ .md-typeset img, .md-typeset svg, .md-typeset video {
+    height: auto;
+    max-width: 50%;
+}
