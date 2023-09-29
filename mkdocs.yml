@@ -1,0 +1,67 @@
+site_name: Biosphère IFB Cloud Federation for Life Science
+repo_url: https://lkhamvongsa.github.io/biosphere/
+repo_name: lkhamvongsa/biosphere
+
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
+  
+  logo: assets/img/logo-ifb-2021.png
+  palette:
+
+     # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+      primary: indigo
+      accent: blue
+        
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: indigo
+      accent: blue
+extra_css:
+  - stylesheets/extra.css  
+extra:
+  homepage: https://www.france-bioinformatique.fr/
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# page tree
+nav:
+    - Home: index.md
+    - Sign in: signin.md
+    - Deploy VM: vm_deploy.md
+    - Connect to VM: vm_connect.md
+    - Transfer Data: data.md
+    - Teachers/Trainers: formations.md
+    - Project support: projets.md
+#     - Deployment:
+#       - Installation: Deployment/deployment_01_install.md
+#       - Configuration: Deployment/deployment_02_configuration.md
+
