@@ -52,7 +52,7 @@ To work locally with this project, you'll have to follow the steps below:
 2. Create and activate conda env
 
 ```bash
-cd sandboxbio-IFB-docs
+cd biosphere
 conda env create -f env_docs.yml
 conda activate docs
 ```
