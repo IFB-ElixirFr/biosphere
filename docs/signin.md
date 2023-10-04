@@ -26,18 +26,16 @@ For example, at the second step of the account request, an email message will be
 
 Once your account is created, you will be asked to apply to your affiliation/project/training group.
 
-![Group table](/assets/img/groups_list.png){ align=right }
+![Group table](/assets/img/groups_list.png){ width="500", align=right }
 
 1. Go to the [Biosphere Groups page](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups).
 2. Select the tab "Join a group".
 3. Search your group with the top-right field.
 4. Apply to join it.
 
-
 !!! Note
 
     If your affiliation is not already registered, you may ask to create it in the tab "Add a group"
-
 
 !!! Warning "Attention"
 

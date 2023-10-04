@@ -27,5 +27,4 @@ img {
 
  .md-typeset img, .md-typeset svg, .md-typeset video {
     height: auto;
-    max-width: 50%;
 }

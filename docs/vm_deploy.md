@@ -4,12 +4,13 @@ Different pre-defined bioinformatics environments ('appliances') are available f
 
 Each appliance is shortly described in a box, like in the following exampleof the `BioPipes`app.
 
-![Biosphere portal RAINBio box example](https://github.com/IFB-ElixirFr/biosphere/raw/master/assets/img/rainbio-box.png)
+![Biosphere portal RAINBio box example](https://github.com/IFB-ElixirFr/biosphere/raw/master/assets/img/rainbio-box.png){ width="500", align=right }
 
-The list of integrated tools and associated topics are summarized in the box [4].
 
-Several actions are directly usable through the following icons:
-- [1] 'star': to record it in your favorites,
-- [2] 'lightning': to start the app quickly with the default parameters (`default cloud`, `default size` in your user profile),
-- [3] 'wrench': to configure your deployment, for example to change the cloud to use and the size of the VM,
-- [5] '+': to display an detailled view of the appliance (you can also click on the name of the appliance).
+The list of integrated tools and associated topics are summarized in the box {==[4]==}.
+
+Several actions are directly usable through the following icons:<br>
+- {==[1]==} 'star': to record it in your favorites,<br>
+- {==[2]==} 'lightning': to start the app quickly with the default parameters (`default cloud`, `default size` in your user profile),<br>
+- {==[3]==} 'wrench': to configure your deployment, for example to change the cloud to use and the size of the VM,<br>
+- {==[5]==} '+': to display an detailled view of the appliance (you can also click on the name of the appliance).
