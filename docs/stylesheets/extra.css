@@ -16,12 +16,15 @@ img {
     background-color: white;
 }
 
-.md-typeset h1, .md-typeset h2 {
-    color: rgb(13, 127, 227);
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
     font-weight: 700;
 }
 
-.md-typeset h2,.md-typeset h3 {
+.md-typeset h1 {
+    color: rgb(8, 81, 145);
+}
+
+.md-typeset h2,.md-typeset h3, .md-typeset h4 {
     color: rgb(13, 127, 227);
  }   
 

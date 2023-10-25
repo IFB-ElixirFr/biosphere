@@ -425,23 +425,57 @@
         
           <li class="md-nav__item">
   <a href="#1-connecting-to-the-web-interface-of-a-vm" class="md-nav__link">
-    1) Connecting to the web interface of a VM
+    1. Connecting to the web interface of a VM
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#2-connecting-with-ssh-to-a-vm" class="md-nav__link">
-    2) Connecting with SSH to a VM
+    2. Connecting with SSH to a VM
   </a>
   
-    <nav class="md-nav" aria-label="2) Connecting with SSH to a VM">
+    <nav class="md-nav" aria-label="2. Connecting with SSH to a VM">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#configuring-your-ssh-parameters-in-the-biosphere-portal" class="md-nav__link">
     Configuring your SSH parameters in the Biosphere portal
   </a>
+  
+    <nav class="md-nav" aria-label="Configuring your SSH parameters in the Biosphere portal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-get-your-ssh-pubkey" class="md-nav__link">
+    1. Get your SSH PubKey
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-open-your-account-parameters-page" class="md-nav__link">
+    2. Open your account parameters page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-click-the-edit-button" class="md-nav__link">
+    3. Click the Edit button.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-copy-your-ssh-public-key-in-the-pubkey-field" class="md-nav__link">
+    4. Copy your SSH public key in the Pubkey field.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -459,10 +493,10 @@
         
           <li class="md-nav__item">
   <a href="#3-opening-a-remote-desktop-with-x2go-to-a-vm" class="md-nav__link">
-    3) Opening a remote desktop with X2Go to a VM
+    3. Opening a remote desktop with X2Go to a VM
   </a>
   
-    <nav class="md-nav" aria-label="3) Opening a remote desktop with X2Go to a VM">
+    <nav class="md-nav" aria-label="3. Opening a remote desktop with X2Go to a VM">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -567,15 +601,17 @@
   <h1>Connect to VM</h1>
 
 <h2 id="connecting-to-your-virtual-machines">Connecting to your virtual machines</h2>
-<p>There are different ways to interact with your virtual machines (VM):
-1. with a <strong>web interface</strong> (HTTP) with web-enabled cloud appliances, for example RStudio, Jupyter Notebooks;
-2. with the <strong>SSH command line interface</strong> (CLI) through a terminal window;
-3. with a <strong>remote graphical desktop</strong> (X2Go).</p>
+<p>There are different ways to interact with your virtual machines (VM):</p>
+<ol>
+<li>with a <strong>web interface</strong> (HTTP) with web-enabled cloud appliances, for example RStudio, Jupyter Notebooks;</li>
+<li>with the <strong>SSH command line interface</strong> (CLI) through a terminal window;</li>
+<li>with a <strong>remote graphical desktop</strong> (X2Go).</li>
+</ol>
 <p>Once the deployment of your VM is done successfully, you can get all connection parameters from the column <code>Access</code> in the  <a href="https://biosphere.france-bioinformatique.fr/cloud"><strong>myVM</strong> tab
 </a> of the biosphere portal. You will find the HTTP link (if any) to your VM, or the SSH parameters (<code>username</code> and <code>IP address</code>) to use to connect to your VM.</p>
-<h3 id="1-connecting-to-the-web-interface-of-a-vm">1) Connecting to the web interface of a VM</h3>
+<h3 id="1-connecting-to-the-web-interface-of-a-vm">1. Connecting to the web interface of a VM</h3>
 <p>Simply click on the <strong>HTTPS</strong> link to be redirected to the web portal provided by your VM. In the case you are requested to provide the <code>username</code> and <code>password</code>, or the <code>access token</code>, they are provided through the parameters field <code>Params</code> in the <code>Access</code> column. These security parameters are unique for your VM and only known to you (and of course to the administrators of your group and of the cloud site for operationnal reasons).</p>
-<h3 id="2-connecting-with-ssh-to-a-vm">2) Connecting with SSH to a VM</h3>
+<h3 id="2-connecting-with-ssh-to-a-vm">2. Connecting with SSH to a VM</h3>
 <p>An SSH client is installed by default in any computer with Linux (CentOS, Ubuntu, Debian,...), MacOS (<a href="https://support.apple.com/fr-gq/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac">doc</a>)
 and MS Windows 10 (and higher). From MS Windows 10 release, you can use both
 the PowerShell (<a href="https://docs.microsoft.com/fr-fr/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2#where-do-i-find-powershell">doc</a>)
@@ -583,30 +619,21 @@ or the WSL - Windows Subsystem Linux - based on Ubuntu (<a href="https://docs.mi
 <h4 id="configuring-your-ssh-parameters-in-the-biosphere-portal">Configuring your SSH parameters in the Biosphere portal</h4>
 <p>First, you need to <strong>configure your SSH parameters before creating a VM with SSH access</strong>.
 Indeed your SSH PubKey will be imported in your VM at its creation, and cannot be modified afterwards.</p>
-<ol>
-<li>Get your SSH PubKey</li>
-</ol>
+<h5 id="1-get-your-ssh-pubkey">1. Get your SSH PubKey</h5>
 <p>Open a terminal window (Linux, MacOS) or a PowerShell (MS Windows) and type the following command.</p>
-<p><code>cat $HOME/.ssh/id_rsa.pub</code></p>
+<div class="highlight"><pre><span></span><code>cat $HOME/.ssh/id_rsa.pub
+</code></pre></div>
 <p>If you do not have already your SSH keys pair, you can create one with the following command.</p>
-<p><code>ssh-keygen -t rsa</code></p>
-<ol>
-<li>Open your account parameters page</li>
-</ol>
-<p>They are available from the user menu in the top-right corner of the Biopshere portal
-[<a href="https://biosphere.france-bioinformatique.fr/cloudweb_account/settings/">go</a>].</p>
-<ol>
-<li>
-<p>Click the Edit button.</p>
-</li>
-<li>
-<p>Copy your SSH public key in the <code>Pubkey</code> field.</p>
-</li>
-</ol>
+<div class="highlight"><pre><span></span><code>ssh-keygen -t rsa
+</code></pre></div>
+<h5 id="2-open-your-account-parameters-page">2. Open your account parameters page</h5>
+<p>They are available from the user menu in the top-right corner of the Biopshere portal [<a href="https://biosphere.france-bioinformatique.fr/cloudweb_account/settings/">go</a>].</p>
+<h5 id="3-click-the-edit-button">3. Click the Edit button.</h5>
+<h5 id="4-copy-your-ssh-public-key-in-the-pubkey-field">4. Copy your SSH public key in the <code>Pubkey</code> field.</h5>
 <p>You can paste several public keys but be careful that each one is on one line only.</p>
 <h4 id="opening-the-ssh-connection-to-the-vm">Opening the SSH connection to the VM</h4>
 <p>Opening the SSH connection to the VM simply requires you to click on the <code>ssh</code> link to be redirected to the terminal with an automatic SSH connection to  your VM. This will work for MacOS and most Linux. For others systems, you have to copy from the <code>ssh</code> link, paste the copied text in a terminal or a PowerShell window, and replace the '://' by ' ' in the command to run. The connection will be opened according to the SSH key you configured (see above).</p>
-<h3 id="3-opening-a-remote-desktop-with-x2go-to-a-vm">3) Opening a remote desktop with X2Go to a VM</h3>
+<h3 id="3-opening-a-remote-desktop-with-x2go-to-a-vm">3. Opening a remote desktop with X2Go to a VM</h3>
 <p>Opening a remote desktop requires to both have configured your SSH parameters (see above) and installed the X2Go client and dependencies.</p>
 <h4 id="configuring-the-software-tools">Configuring the software tools</h4>
 <ul>

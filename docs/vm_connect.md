@@ -1,6 +1,7 @@
 ## Connecting to your virtual machines
 
 There are different ways to interact with your virtual machines (VM):
+
 1. with a **web interface** (HTTP) with web-enabled cloud appliances, for example RStudio, Jupyter Notebooks;
 2. with the **SSH command line interface** (CLI) through a terminal window;
 3. with a **remote graphical desktop** (X2Go).
@@ -8,12 +9,12 @@ There are different ways to interact with your virtual machines (VM):
 Once the deployment of your VM is done successfully, you can get all connection parameters from the column `Access` in the  [**myVM** tab
 ](https://biosphere.france-bioinformatique.fr/cloud) of the biosphere portal. You will find the HTTP link (if any) to your VM, or the SSH parameters (`username` and `IP address`) to use to connect to your VM.
 
-### 1) Connecting to the web interface of a VM
+### 1. Connecting to the web interface of a VM
 
 Simply click on the **HTTPS** link to be redirected to the web portal provided by your VM. In the case you are requested to provide the `username` and `password`, or the `access token`, they are provided through the parameters field `Params` in the `Access` column. These security parameters are unique for your VM and only known to you (and of course to the administrators of your group and of the cloud site for operationnal reasons).
 
 
-### 2) Connecting with SSH to a VM
+### 2. Connecting with SSH to a VM
 
 An SSH client is installed by default in any computer with Linux (CentOS, Ubuntu, Debian,...), MacOS ([doc](https://support.apple.com/fr-gq/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac))
 and MS Windows 10 (and higher). From MS Windows 10 release, you can use both
@@ -25,24 +26,24 @@ or the WSL - Windows Subsystem Linux - based on Ubuntu ([doc](https://docs.micro
 First, you need to **configure your SSH parameters before creating a VM with SSH access**.
 Indeed your SSH PubKey will be imported in your VM at its creation, and cannot be modified afterwards.
 
-1. Get your SSH PubKey
+##### 1. Get your SSH PubKey
 
-Open a terminal window (Linux, MacOS) or a PowerShell (MS Windows) and type the following command.
+  Open a terminal window (Linux, MacOS) or a PowerShell (MS Windows) and type the following command.
 
-`cat $HOME/.ssh/id_rsa.pub`
+  ```
+  cat $HOME/.ssh/id_rsa.pub
+  ```
 
-If you do not have already your SSH keys pair, you can create one with the following command.
+  If you do not have already your SSH keys pair, you can create one with the following command.
 
-`ssh-keygen -t rsa`
+  ```
+  ssh-keygen -t rsa
+  ```
+##### 2. Open your account parameters page
+  They are available from the user menu in the top-right corner of the Biopshere portal [[go](https://biosphere.france-bioinformatique.fr/cloudweb_account/settings/)].
+##### 3. Click the Edit button.
 
-2. Open your account parameters page
-
-They are available from the user menu in the top-right corner of the Biopshere portal
-[[go](https://biosphere.france-bioinformatique.fr/cloudweb_account/settings/)].
-
-3. Click the Edit button.
-
-4. Copy your SSH public key in the `Pubkey` field.
+##### 4. Copy your SSH public key in the `Pubkey` field.
 
 You can paste several public keys but be careful that each one is on one line only.
 
@@ -50,7 +51,7 @@ You can paste several public keys but be careful that each one is on one line on
 
 Opening the SSH connection to the VM simply requires you to click on the `ssh` link to be redirected to the terminal with an automatic SSH connection to  your VM. This will work for MacOS and most Linux. For others systems, you have to copy from the `ssh` link, paste the copied text in a terminal or a PowerShell window, and replace the '://' by ' ' in the command to run. The connection will be opened according to the SSH key you configured (see above).
 
-### 3) Opening a remote desktop with X2Go to a VM
+### 3. Opening a remote desktop with X2Go to a VM
 
 Opening a remote desktop requires to both have configured your SSH parameters (see above) and installed the X2Go client and dependencies.
 

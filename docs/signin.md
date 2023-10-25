@@ -1,4 +1,4 @@
-## Sign in
+
 
 The first action to sign in to Biosphere is to click on the menu [**"Sign in"**](https://biosphere.france-bioinformatique.fr/cloudweb/login/?next=/)
  in the top-right corner of the main page of the Biopshere portal, and then follow the guidelines. you will first create your account, and then request to activate it by joining a valid group corresponding to your  affiliation/project/training. You can also join other groups afterwards according to your situation.
@@ -26,7 +26,7 @@ For example, at the second step of the account request, an email message will be
 
 Once your account is created, you will be asked to apply to your affiliation/project/training group.
 
-![Group table](/assets/img/groups_list.png){ width="500", align=right }
+![Group table](https://raw.githubusercontent.com/lkhamvongsa/biosphere/master/docs/assets/img/groups_list.png){ width="500", align=right }
 
 1. Go to the [Biosphere Groups page](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups).
 2. Select the tab "Join a group".
