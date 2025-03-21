@@ -1,7 +1,9 @@
-L'IFB soutient les formations (cursus universitaires, écoles scientifiques, formations permanentes, workshops, hackathons...) par la fourniture de l’infrastructure bio-informatique et informatique avec des machines virtuelles dédiées, et par une assistance pour la préparation de l’environnement logiciel.
+IFB supports training initiatives (university programs, scientific schools, continuing education, workshops, hackathons, etc.) by providing bioinformatics and computing infrastructure, including dedicated virtual machines and offering assistance in setting up the software environment.
 
-**Note importante :**
-Différentes constatations environnementales (préservation des ressources) ou économiques (coût de l’électricité) nous amènent à réfléchir sur notre usage du numérique. C'est pourquoi nous vous demandons de privilégier nos gabarits dédiés aux VMs de formation. Ces gabarits (‘ifb.tr.xxxx’, ’tr’ pour « training ») sont moins chargés en mémoire avec un ratio de 1 coeur pour 1 Go de RAM. Cela permet de mettre plus de VMs par serveur physique et donc de moins consommer d’électricité. 
+!!! Warning "Important Note"
+
+    Various environmental (resource conservation) and economic (electricity costs) considerations lead us to rethink our use of digital resources. That’s why we ask you to prioritize our dedicated training VM templates. These templates (‘ifb.tr.xxxx’, where ‘tr’ stands for "training") are designed with a lower memory footprint, following a ratio of 1 core per 1 GB of RAM. This allows more VMs to run on a single physical server thereby reducing electricity consumption.
+
 ```
 ifb.tr.small (1c 1Go)
 ifb.tr.medium (2c 2Go)
@@ -10,32 +12,32 @@ ifb.tr.xlarge (8c 8Go)
 ifb.tr.2xlarge (16c16Go)
 ```
 
-En effet, on ne peut pas proposer plus de RAM dans les VMs que celle disponible sur le serveur physique, alors que pour les CPUs virtuels il est possible d’allouer 3 ou 4 fois plus que la taille des CPUs physiques. Or, dans les clouds IFB-Biosphère, les gabarits proposés pour les VMs ont été calibrés pour un usage intensif. C’est pourquoi le ratio est généralement équivalent à 1 coeur de calcul (1c) pour 4 Go de RAM.
+Indeed, we cannot allocate more RAM to VMs than what is physically available on the server whereas for virtual CPUs it is possible to allocate 3 to 4 times the number of physical CPUs. However, in the IFB-Biosphere clouds, the VM templates have been designed for high-performance usage. This is why the typical ratio is set to 1 computing core (1c) per 4 GB of RAM.
 
-Les VMs déployées lors d’une formation ne sont pas forcément utilisées en permanence (étape de préparation, inter-cours…). Ainsi, lorsqu’un serveur est occupé par un grand nombre de VMs de formation, la taille totale en RAM est saturée mais pas les CPUs. **Or un serveur qui ne calcule pas consomme malgré tout la moitié de sa consommation électrique maximale**.
+Training VMs are not necessarily used continuously (e.g., during preparation or between courses). As a result, when a server hosts a large number of training VMs, the total RAM may be saturated, but the CPUs are not fully engaged. **Nevertheless, even if a server is not actively processing, it still consumes about half of its maximum electrical power.**
 
-## Création d'un groupe dédié à la formation 
+## Creation of a dedicated training group
 
-La **première étape consiste à remplir une demande d'appui** pour cette formation dans le portail Biosphère avec ce 
-[formulaire](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2). La personne demandant le soutien devra également avoir un compte valide dans le cloud IFB, et avoir rejoint le groupe de son affiliation principale.
- 
-Un groupe correspondant à cette formation sera créé dans Biosphère, et des ressources seront allouées (vCPU, RAM, stockage) en fonction de vos besoins et des ressources disponibles sur l'infrastructure.
+The first step is to submit a support request for this training through the Biosphère portal using this
+[form](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2). The person requesting support must also have a valid account in the IFB cloud and have joined the group corresponding to their primary affiliation.
 
-Les formateurs et élèves pourront sélectionner ce groupe pour le déploiement des machines virtuelles (VMs) relatives à cette formation (dans *Déploiement avancé*, ou le définir par défaut dans leur profil).
+A group corresponding to this training will be created in Biosphère, and resources (vCPU, RAM, storage) will be allocated based on your needs and the available resources on the infrastructure.
 
-## Fonctionnalités pour les formateurs
+Instructors and students will be able to select this group for deploying the virtual machines (VMs) related to this training (**in Advanced Deployment** or set it as the default in their profile).
 
-Les formateurs, que vous aurez indiqués, seront administrateurs de ce groupe et pourront valider les élèves et gérer leurs VMs.
+## Features for instructors
 
-Les formateurs recevront pour chaque demande d'adhésion au groupe formation une notification par email et pourront valider les nouveaux comptes dans le portail Biosphère. Ces comptes élèves seront désactivés automatiquement à la fin de la formation.
+The instructors you specify will be administrators of this group and will be able to validate students and manage their VMs.
 
-Les formateurs pourront voir et gérer les VMs des élèves dans le tableau de bord du portail Biosphère (page [myVM - Tout voir](https://biosphere.france-bioinformatique.fr/monitor)), par exemple pour les supprimer à la fin de la formation si l’élève ne l’a pas fait.
+Instructors will receive an email notification for each group training membership request and will be able to approve new accounts in the Biosphère portal. These student accounts will be automatically deactivated at the end of the training.
 
-## Fonctionnalités pour les élèves
+Instructors will be able to view and manage students' VMs through the Biosphère portal dashboard (page [myVM - View All](https://biosphere.france-bioinformatique.fr/monitor)), for example, to delete them at the end of the training if the student has not done so.
 
-Les élèves pourront demander un compte cloud avec leurs identifiants académiques (par exemple de leur université ou de leur organisme de recherche), et leur adhésion au groupe de la formation.
+## Features for Students
 
-Chaque élève pourra avec son compte déployer ses propres VMs suivant ses besoins et les recommandations des enseignants, en choisissant la taille de ses VMs suivant les ressources disponibles sur les sites de l'infrastructure. Cela peut être 1 CPU et 4 Go de RAM pour un premier exercice, puis 16 vCPUs et 64 Go RAM lors d’exercices plus gourmands. 
+Students will be able to request a cloud account using their academic credentials (e.g., from their university or research organization) and join the training group.
+
+Each student, with their account, can deploy their own VMs based on their needs and the instructors' recommendations, choosing the size of their VMs according to the available resources on the infrastructure sites. For example, they might start with 1 CPU and 4 GB of RAM for an initial exercise, and then scale up to 16 vCPUs and 64 GB of RAM for more resource-intensive exercises.
 
 ## Des environnements dédiés
 
