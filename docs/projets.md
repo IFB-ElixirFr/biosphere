@@ -42,8 +42,9 @@ For the creation of a new cloud appliance dedicated to your project, feel free t
 ## A distributed and redundant infrastructure
 
 The IFB-Biosphere cloud infrastructure includes multiple sites with different hardware resources, allowing you to: 
-1. find resources scaled to your needs,
-2. access specialized resources, such as high-memory VMs (`BigMem`) or high-frequency processors (`HighFreq`),
-3. switch to an available site in case of a failure at one of the locations.
+
+ 1. find resources scaled to your needs,
+ 2. access specialized resources, such as high-memory VMs (`BigMem`) or high-frequency processors (`HighFreq`),
+ 3. switch to an available site in case of a failure at one of the locations.
 
 The list of sites and their available resources can be viewed on the Biosphere portal under the system [status page](https://biosphere.france-bioinformatique.fr/cloud/system_status).
