@@ -50,6 +50,7 @@ If you need to create a new cloud appliance in the RAINBio catalog, feel free to
 ## A distributed and redundant infrastructure
 
 The cloud infrastructure includes several sites with different hardware resources, allowing you to:
+
 1. switch to another site in case of failure of one of the sites on the day of the training,
 2. find specific resources, such as VMs with more memory or faster processors.
 
