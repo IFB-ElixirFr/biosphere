@@ -39,20 +39,18 @@ Students will be able to request a cloud account using their academic credential
 
 Each student, with their account, can deploy their own VMs based on their needs and the instructors' recommendations, choosing the size of their VMs according to the available resources on the infrastructure sites. For example, they might start with 1 CPU and 4 GB of RAM for an initial exercise, and then scale up to 16 vCPUs and 64 GB of RAM for more resource-intensive exercises.
 
-## Des environnements dédiés
+## Dedicated environments
 
-Les VMs des élèves seront construites automatiquement avec les modèles existants dans notre [catalogue RAINBio](https://biosphere.france-bioinformatique.fr/catalogue), ou avec un nouveau modèle défini pour la formation.
+The students' VMs will be automatically built using existing templates from our [RAINBio catalog](https://biosphere.france-bioinformatique.fr/catalogue), or with a new model specifically designed for the training.
 
-Les environnements disponibles vont d'un serveur linux de base (ubuntu, debian, centos) à des environnements plus complets avec des gestionnaires de workflows (Nextflow, Snakemake, CWLtool), un bureau graphique à distance ou des interfaces web (Jupyter, Rstudio/Shiny …).
+The available environments range from a basic Linux server (Ubuntu, Debian, CentOS) to more comprehensive setups, including workflow managers (Nextflow, Snakemake, CWLtool), remote graphical desktops, or web interfaces (Jupyter, RStudio/Shiny, etc.).
 
-Pour la création d'une nouvelle appliance cloud dans le catalogue RAINBio, contactez-nous sur notre [adresse support](mailto:biosphere-support@genouest.org), nous pouvons vous aider.
+If you need to create a new cloud appliance in the RAINBio catalog, feel free to contact us at our [support address](mailto:biosphere-support@genouest.org), we are happy to assist you.
 
-## Une infrastructure distribuée et redondante
+## A distributed and redundant infrastructure
 
-L’infrastructure cloud comprend plusieurs sites avec des ressources matérielles différentes qui vous permettent : 
-1. de basculer sur un autre site en cas de défaillance d’un des sites le jour de la formation,
-2. de trouver des ressources spécifiques comme par exemple des VMs avec beaucoup de mémoire ou des processeurs plus rapides.
+The cloud infrastructure includes several sites with different hardware resources, allowing you to:
+1. switch to another site in case of failure of one of the sites on the day of the training,
+2. find specific resources, such as VMs with more memory or faster processors.
 
-La liste des sites et leurs ressources sont visibles sur le portail Biosphère dans la page d'[état du système](https://biosphere.france-bioinformatique.fr/cloud/system_status).
-
-
+The list of sites and their resources can be viewed on the Biosphere portal under the system status [page](https://biosphere.france-bioinformatique.fr/cloud/system_status).

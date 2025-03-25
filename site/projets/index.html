@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#creation-dun-groupe-projet" class="md-skip">
+        <a href="#setting-up-a-project-group" class="md-skip">
           Skip to content
         </a>
       
@@ -459,36 +459,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#creation-dun-groupe-projet" class="md-nav__link">
-    Création d'un groupe projet
+  <a href="#setting-up-a-project-group" class="md-nav__link">
+    Setting up a project group
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#fonctionnalites-pour-les-responsables-du-projet" class="md-nav__link">
-    Fonctionnalités pour les responsables du projet
+  <a href="#features-for-project-leads" class="md-nav__link">
+    Features for project leads
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#fonctionnalites-pour-les-membres-du-projet" class="md-nav__link">
-    Fonctionnalités pour les membres du projet
+  <a href="#features-for-project-members" class="md-nav__link">
+    Features for project members
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#des-environnements-dedies" class="md-nav__link">
-    Des environnements dédiés
+  <a href="#dedicated-environments" class="md-nav__link">
+    Dedicated Environments
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#une-infrastructure-distribuee-et-redondante" class="md-nav__link">
-    Une infrastructure distribuée et redondante
+  <a href="#a-distributed-and-redundant-infrastructure" class="md-nav__link">
+    A distributed and redundant infrastructure
   </a>
   
 </li>
@@ -518,35 +518,37 @@
 
   <h1>Project support</h1>
 
-<p>L'IFB soutient les projets de recherche (régionaux, ANR, Europe...) par la fourniture de l’infrastructure bio-informatique et informatique avec des machines virtuelles dédiées, et par une assistance pour la mise en oeuvre des environnements logiciels.</p>
-<h2 id="creation-dun-groupe-projet">Création d'un groupe projet</h2>
-<p>La <strong>première étape consiste à remplir une demande d'appui</strong> pour ce projet dans le portail Biosphère avec ce 
-<a href="https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=3">formulaire</a>.
-<strong>Cette demande doit être faite par la/le responsable administratif du projet (porteur du projet ANR, chef d'équipe,
-responsable du stage...). La personne responsable du projet devra également avoir un compte valide dans le cloud IFB, et avoir rejoint le groupe de son affiliation principale.</strong></p>
-<p>La demande de projet sera étudiée par l'IFB. En fonction de la décision du comité d'évaluation, les ressources attribuées et les modalités de prise en charge vous seront communiquées. La prise en charge des ressources pourra être de plusieurs types :
-- par une des plateformes participant à l'infrastructure sur son enveloppe de ressources,
-- dans le cadre d'une collaboration scientifique,
-- sur facturation.</p>
-<p>Un groupe correspondant à cette formation sera créé dans Biosphère, auquel des <strong>ressources seront allouées (vCPU, RAM, stockage)</strong> en fonction de vos besoins exprimés et de la décision du comité d'évaluation.</p>
-<h2 id="fonctionnalites-pour-les-responsables-du-projet">Fonctionnalités pour les responsables du projet</h2>
-<p>Les responsables de projet, tels qu'indiqués dans la demande, seront administrateurs de ce groupe. Ils pourront valider les demandes d'adhésion des membres et monitorer toutes les machines virtuelles (VMs) du projet.</p>
-<p>Les responsables de projet recevront pour chaque demande d'adhésion au groupe projet une notification par email et pourront valider les nouveaux comptes dans le portail Biosphère. Les comptes liés au projet seront désactivés automatiquement à la fin du projet.</p>
-<p>Les responsables de projet peuvent monitorer et gérer les environnements et VMs du projet dans le tableau de bord du portail Biosphère (page <a href="https://biosphere.france-bioinformatique.fr/monitor">myVM - Tout voir</a>), par exemple pour les supprimer lorsque c'est nécessaire.</p>
-<p>La consommation des ressources par les membres et leurs VMs seront imputées au projet. Un relevé de la consommation courante est mis à jour quotidiennement, et disponible dans la page du projet sur le portail Biosphère.</p>
-<h2 id="fonctionnalites-pour-les-membres-du-projet">Fonctionnalités pour les membres du projet</h2>
-<p>Les membres du projet peuvent demander à rejoindre le groupe projet depuis la <a href="https://biosphere.france-bioinformatique.fr/cloudweb_account/groups">page correspondante</a> sur le portail Biosphère. Ils doivent au préalable avoir demandé un compte cloud Biosphère avec leurs identifiants académiques (par exemple de leur université ou de leur organisme de recherche).</p>
-<p>Chaque membre pourra avec son compte déployer ses propres environnements d'analyse et VMs suivant ses besoins, les recommandations du projet et les ressources disponibles sur les sites de l'infrastructure.</p>
-<h2 id="des-environnements-dedies">Des environnements dédiés</h2>
-<p>Les environnements et VMs des membres du projet sont construits automatiquement d'après les modèles existants dans le <a href="https://biosphere.france-bioinformatique.fr/catalogue">catalogue RAINBio</a>, ou avec un nouveau modèle défini pour le projet.</p>
-<p>Les environnements disponibles vont d'un serveur linux de base (ubuntu, debian, centos) à des environnements plus complexes avec des gestionnaires de workflows (Nextflow, Snakemake, CWLtool), un bureau graphique à distance ou des interfaces web (Jupyter, Rstudio/Shiny …).</p>
-<p>Pour la création d'une nouvelle appliance cloud dédiée au projet, contactez-nous sur notre <a href="mailto:biosphere-support@genouest.org">adresse support</a>, nous pouvons vous aider.</p>
-<h2 id="une-infrastructure-distribuee-et-redondante">Une infrastructure distribuée et redondante</h2>
-<p>L’infrastructure cloud IFB-Biosphère comprend plusieurs sites avec des ressources matérielles différentes qui vous permettent : 
-1. de trouver des ressources de taille adaptée à vos besoins,
-2. ou des ressources spécifiques comme, par exemple, des VMs avec beaucoup de mémoire (<code>BigMem</code>) ou des processeurs plus rapides (<code>HighFreq</code>),
-3. de basculer sur un site disponible en cas de défaillance d’un des sites.</p>
-<p>La liste des sites et leurs ressources disponibles sont visibles sur le portail Biosphère dans la page d'<a href="https://biosphere.france-bioinformatique.fr/cloud/system_status">état du système</a>.</p>
+<p>The IFB supports research projects (regional, ANR, European, etc.) by providing bioinformatics and IT infrastructure with dedicated virtual machines, as well as assistance in implementing software environments.</p>
+<h2 id="setting-up-a-project-group">Setting up a project group</h2>
+<p>The <strong>first step is to fill out a support request</strong> for this project on the Biosphere portal using this 
+<a href="https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=3">form</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>This request must be submitted by the project’s administrative lead (ANR project holder, team leader, supervisor, etc.). The project lead must also have a valid account in the IFB cloud and have joined the group corresponding to their main affiliation.</strong></p>
+</div>
+<p>The project request will be reviewed by the IFB. Based on the decision of the evaluation committee, the allocated resources and the terms of support will be communicated to you. Resource support may take several forms:
+- provided by one of the platforms participating in the infrastructure under their resource envelope,
+- as part of a scientific collaboration,
+- billed on an invoicing basis.</p>
+<p>A group corresponding to this training will be created in Biosphere, and <strong>resources (vCPU, RAM, storage) will be allocated</strong> according to your stated needs and the committee’s decision.</p>
+<h2 id="features-for-project-leads">Features for project leads</h2>
+<p>Project leads, as specified in the request, will be administrators of the project group. They will have the ability to approve membership requests and monitor all virtual machines (VMs) associated with the project.</p>
+<p>Project leads will receive an email notification for each membership request and will be able to approve new accounts within the Biosphere portal. Accounts linked to the project will be automatically deactivated at the end of the project.</p>
+<p>Project leads can monitor and manage the project’s environments and VMs through the Biosphere portal dashboard (page <a href="https://biosphere.france-bioinformatique.fr/monitor">on the myVM - View All page</a>), including the option to delete VMs when necessary.</p>
+<p>Resource consumption by project members and their VMs will be attributed to the project. A daily updated record of current consumption is available on the project page in the Biosphere portal.</p>
+<h2 id="features-for-project-members">Features for project members</h2>
+<p>Project members can request to join the project group from the <a href="https://biosphere.france-bioinformatique.fr/cloudweb_account/groups">corresponding page</a> on the  Biosphere portal. They must first request a Biosphere cloud account using their academic credentials (e.g., from their university or research organization).</p>
+<p>Each member, with their account, will be able to deploy their own analysis environments and VMs according to their needs, the project recommendations, and the resources available on the infrastructure sites.</p>
+<h2 id="dedicated-environments">Dedicated Environments</h2>
+<p>Project members' environments and VMs are automatically built based on existing models in the <a href="https://biosphere.france-bioinformatique.fr/catalogue">RAINBio catalog</a>, or a new model specifically defined for the project.</p>
+<p>Available environments range from a basic Linux server (Ubuntu, Debian, CentOS) to more advanced setups featuring workflow managers (Nextflow, Snakemake, CWLtool), remote graphical desktops, or web-based interfaces (Jupyter, RStudio/Shiny, etc.).</p>
+<p>For the creation of a new cloud appliance dedicated to your project, feel free to contact us at our <a href="mailto:biosphere-support@genouest.org">support address</a>, we are happy to assist you.</p>
+<h2 id="a-distributed-and-redundant-infrastructure">A distributed and redundant infrastructure</h2>
+<p>The IFB-Biosphere cloud infrastructure includes multiple sites with different hardware resources, allowing you to: 
+1. find resources scaled to your needs,
+2. access specialized resources, such as high-memory VMs (<code>BigMem</code>) or high-frequency processors (<code>HighFreq</code>),
+3. switch to an available site in case of a failure at one of the locations.</p>
+<p>The list of sites and their available resources can be viewed on the Biosphere portal under the system <a href="https://biosphere.france-bioinformatique.fr/cloud/system_status">status page</a>.</p>
 
 
 
