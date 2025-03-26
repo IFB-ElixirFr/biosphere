@@ -1,6 +1,6 @@
-site_name: Biosphère IFB Cloud Federation for Life Science
-repo_url: https://lkhamvongsa.github.io/biosphere/
-repo_name: lkhamvongsa/biosphere
+site_name: Biosphere IFB Cloud Federation for Life Science
+repo_url: https://ifb-elixirfr.github.io/biosphere/
+repo_name: IFB-ElixirFr/biosphere
 
 
 theme:
@@ -63,7 +63,3 @@ nav:
     - Transfer Data: data.md
     - Teachers/Trainers: formations.md
     - Project support: projets.md
-#     - Deployment:
-#       - Installation: Deployment/deployment_01_install.md
-#       - Configuration: Deployment/deployment_02_configuration.md
-
