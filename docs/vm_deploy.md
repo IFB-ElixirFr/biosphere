@@ -4,7 +4,7 @@ Different pre-defined bioinformatics environments ('appliances') are available f
 
 Each appliance is shortly described in a box, like in the following exampleof the `BioPipes`app.
 
-![Biosphere portal RAINBio box example](https://github.com/IFB-ElixirFr/biosphere/raw/master/assets/img/rainbio-box.png){ width="500", align=right }
+![Biosphere portal RAINBio box example](assets/img/rainbio-box.png){ width="500", align=right }
 
 
 The list of integrated tools and associated topics are summarized in the box {==[4]==}.

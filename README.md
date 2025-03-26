@@ -7,7 +7,7 @@ Biosphere provides multi-cloud deployments to increase the availability of cloud
 
 The Biosphere portal provides different high-level cloud interfaces to analyze your data:
 
-![Biosphere portal top banner](https://raw.githubusercontent.com/IFB-ElixirFr/biosphere/master/assets/img/biosphere-portal-top.png)
+![Biosphere portal top banner](assets/img/biosphere-portal-top.png)
 
 * [1] The [RAINBio](https://biosphere.france-bioinformatique.fr/catalogue) catalogue to select the bioinformatics cloud appliances, useful for your analysis,
 * [2] An operating center (tab [myVM](https://biosphere.france-bioinformatique.fr/cloud)) to manage your cloud deployments with single virtual machines (VM) or complex applications with multiple VM,
@@ -18,11 +18,11 @@ To use the clouds of IFB-Biosphere, you need to ask for an account, and get memb
 The Support menu [4] provides the **current status and usage** of the whole infrastructure and the **contact email address** to get help in case of troubles.
 
 **Biosphere federates 8 academic clouds** deployed in regional IFB platforms:
-[IFB-core](https://www.france-bioinformatique.fr/fr/core),
-[GenOuest](https://ressources.france-bioinformatique.fr/fr/plateformes/genouest),
-[PRABI-LBBE](https://ressources.france-bioinformatique.fr/fr/plateformes/prabi-doua),
-[BiRD](https://ressources.france-bioinformatique.fr/fr/plateformes/bird),
-[BIstrO](https://ressources.france-bioinformatique.fr/fr/plateformes/bistro),
-[Bilille](https://ressources.france-bioinformatique.fr/fr/plateformes/bilille),
-[PSMN ENSL-Lyon](http://www.ens-lyon.fr/PSMN/doku.php),
-[AuBi](https://ressources.france-bioinformatique.fr/fr/plateformes/aubi).
+- [IFB-core](https://www.france-bioinformatique.fr/fr/core),
+- [GenOuest](https://ressources.france-bioinformatique.fr/fr/plateformes/genouest),
+- [PRABI-LBBE](https://ressources.france-bioinformatique.fr/fr/plateformes/prabi-doua),
+- [BiRD](https://ressources.france-bioinformatique.fr/fr/plateformes/bird),
+- [BIstrO](https://ressources.france-bioinformatique.fr/fr/plateformes/bistro),
+- [Bilille](https://ressources.france-bioinformatique.fr/fr/plateformes/bilille),
+- [CBPsmn](http://www.ens-lyon.fr/PSMN/doku.php),
+- [AuBi](https://ressources.france-bioinformatique.fr/fr/plateformes/aubi).

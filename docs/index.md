@@ -7,7 +7,7 @@ Biosphere provides multi-cloud deployments to increase the availability of cloud
 
 The Biosphere portal provides different high-level cloud interfaces to analyze your data:
 
-![Biosphere portal top banner](https://raw.githubusercontent.com/IFB-ElixirFr/biosphere/master/assets/img/biosphere-portal-top.png)
+![Biosphere portal top banner](assets/img/biosphere-portal-top.png)
 
 * [1] The [RAINBio](https://biosphere.france-bioinformatique.fr/catalogue) catalogue to select the bioinformatics cloud appliances, useful for your analysis,
 * [2] An operating center (tab [myVM](https://biosphere.france-bioinformatique.fr/cloud)) to manage your cloud deployments with single virtual machines (VM) or complex applications with multiple VM,
