@@ -10,15 +10,15 @@ or with some graphical tools listed below
 you configured in your Biosphere user profile
 (*Do not forget to set it up in the configuration parameters of the following graphical tools*).
 
-* **Linux**
+#### **Linux**
   - FileZilla (https://filezilla-project.org)
 
-* **MacOS**
+#### **MacOS**
   - CyberDuck (https://cyberduck.io)
   - Transmit (https://panic.com/transmit/
   - FileZilla (https://filezilla-project.org)
 
-* **MS-Windows**:
+#### **MS-Windows**:
   - FileZilla (https://filezilla-project.org)
   - MobaXterm (https://mobaxterm.mobatek.net)
   - the embedded Ubuntu available from Windows 10 [[details](https://docs.microsoft.com/en-us/windows/wsl/install-win10)]

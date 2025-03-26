@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>        
+        <a href="https://www.france-bioinformatique.fr"><img src="{{ "/assets/img/logo-ifb-2021.png" | relative_url }}" alt="IFB" /></a>
+
+        <h1><a href="https://biosphere.france-bioinformatique.fr">Biosphère</a></h1>
+
+        <p>IFB Cloud Federation for Life Science</p>
+        
+        <p>
+          <br><a href=".">Main</a>
+          <br><a href="signin">Sign in</a>
+          <br><a href="vm_deploy">Deploy VM</a>
+          <br><a href="vm_connect">Connect to VM</a>
+          <br><a href="data">Transfer Data</a>
+          <br>
+          <br><a href="formations">Enseignants/Formateurs</a>
+          <br><a href="projets">Appui aux projets</a>
+          <br>
+          <br><a href="ateliers">Les Ateliers Biosphère</a>
+        
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        <a href="https://biosphere.france-bioinformatique.fr">Biosphere portal</a>       
+<!--
+        <p>This project is maintained by <a href="https://github.com/orgs/IFB-ElixirFr/teams/biosphere/repositories">IFB Biosphere team</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+-->
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
