@@ -45,7 +45,7 @@ The students' VMs will be automatically built using existing templates from our 
 
 The available environments range from a basic Linux server (Ubuntu, Debian, CentOS) to more comprehensive setups, including workflow managers (Nextflow, Snakemake, CWLtool), remote graphical desktops, or web interfaces (Jupyter, RStudio/Shiny, etc.).
 
-If you need to create a new cloud appliance in the RAINBio catalog, feel free to contact us at our [support address](mailto:biosphere-support@genouest.org), we are happy to assist you.
+If you need to create a new cloud appliance in the RAINBio catalog, feel free to contact us on our [helpdesk](https://biosphere-support.genouest.org), we will be happy to assist you.
 
 ## A distributed and redundant infrastructure
 

@@ -37,7 +37,7 @@ Project members' environments and VMs are automatically built based on existing 
 
 Available environments range from a basic Linux server (Ubuntu, Debian, CentOS) to more advanced setups featuring workflow managers (Nextflow, Snakemake, CWLtool), remote graphical desktops, or web-based interfaces (Jupyter, RStudio/Shiny, etc.).
 
-For the creation of a new cloud appliance dedicated to your project, feel free to contact us at our [support address](mailto:biosphere-support@genouest.org), we are happy to assist you.
+For the creation of a new cloud appliance dedicated to your project, feel free to contact us on our [helpdesk](https://biosphere-support.genouest.org), we will be happy to assist you.
 
 ## A distributed and redundant infrastructure
 
