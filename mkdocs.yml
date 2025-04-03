@@ -65,6 +65,8 @@ nav:
   - Project support: projets.md
 
 plugins:
+  - search
+  - privacy
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
