@@ -54,4 +54,6 @@ The cloud infrastructure includes several sites with different hardware resource
 1. switch to another site in case of failure of one of the sites on the day of the training,
 2. find specific resources, such as VMs with more memory or faster processors.
 
-The list of sites and their resources can be viewed on the Biosphere portal under the system status [page](https://biosphere.france-bioinformatique.fr/cloud/system_status).
+!!! Note
+
+    The list of sites and their resources can be viewed on the Biosphere portal under the system status [page](https://biosphere.france-bioinformatique.fr/cloud/system_status).

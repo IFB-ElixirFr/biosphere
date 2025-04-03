@@ -47,4 +47,6 @@ The IFB-Biosphere cloud infrastructure includes multiple sites with different ha
  2. access specialized resources, such as high-memory VMs (`BigMem`) or high-frequency processors (`HighFreq`),
  3. switch to an available site in case of a failure at one of the locations.
 
-The list of sites and their available resources can be viewed on the Biosphere portal under the system [status page](https://biosphere.france-bioinformatique.fr/cloud/system_status).
+!!! Note
+
+    The list of sites and their available resources can be viewed on the Biosphere portal under the system [status page](https://biosphere.france-bioinformatique.fr/cloud/system_status).

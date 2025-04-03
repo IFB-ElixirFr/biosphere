@@ -13,7 +13,7 @@ The Biosphere portal provides different high-level cloud interfaces to analyze y
 * [2] An operating center (tab [myVM](https://biosphere.france-bioinformatique.fr/cloud)) to manage your cloud deployments with single virtual machines (VM) or complex applications with multiple VMs,
 * [3] A [data center](https://biosphere.france-bioinformatique.fr/data) where you will find common public data available in the clouds.
 
-To use the clouds of IFB-Biosphere, you need to ask for an account, and get membership of an active group (see menu `Sign in`). Then, you will need to set up your personnal parameters [5]. And finally, you are ready to launch your VMs from the RAINBio catalogue.
+To use the clouds of IFB-Biosphere, you need to ask for an account, and get membership of an active group (see menu `Sign in` of this documentation). Then, you will need to set up your personnal parameters [5]. And finally, you are ready to launch your VMs from the RAINBio catalogue.
 
 The Support menu [4] provides the **current status and usage** of the whole infrastructure and the **address of our online helpdesk** to get help in case of troubles.
 
