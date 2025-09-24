@@ -1,11 +1,16 @@
 L'IFB soutient les projets de recherche (régionaux, ANR, Europe...) par la fourniture de l’infrastructure bio-informatique et informatique avec des machines virtuelles dédiées, et par une assistance pour la mise en oeuvre des environnements logiciels.
 
+!!! Warning "IMPORTANT !"
+    Le cloud IFB est disponible pour l’instant **uniquement à des fins d’analyse et non pour un stockage pérenne des données**. Dans ce sens, il n’est **ni sauvegardé ni garanti** envers de mauvaises manipulations ou un crash du système;
+
+    Le cloud IFB n'est pas **habilité à l’hébergement de données de santé (HDS), industrielles ou plus globalement les données sensibles à caractère confidentiel et de haute importance**.
+
 ## Création d'un groupe projet 
 
 La **première étape consiste à remplir une demande d'appui** pour ce projet dans le portail Biosphère avec ce 
 [formulaire](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=3).
 
-!!! Warning "Attention"
+!!! Warning "Attention !"
     **Cette demande doit être faite par la/le responsable administratif du projet (porteur du projet ANR, chef d'équipe,
     responsable du stage...). La personne responsable du projet devra également avoir un compte valide dans le cloud IFB, et avoir rejoint le groupe de son affiliation principale.**
 
@@ -42,7 +47,8 @@ Pour la création d'une nouvelle appliance cloud dédiée au projet, contactez-n
 
 ## Une infrastructure distribuée et redondante
 
-L’infrastructure cloud IFB-Biosphère comprend plusieurs sites avec des ressources matérielles différentes qui vous permettent : 
+L’infrastructure cloud IFB-Biosphère comprend plusieurs sites avec des ressources matérielles différentes qui vous permettent :
+
 1. de trouver des ressources de taille adaptée à vos besoins,
 2. ou des ressources spécifiques comme, par exemple, des VMs avec beaucoup de mémoire (`BigMem`) ou des processeurs plus rapides (`HighFreq`),
 3. de basculer sur un site disponible en cas de défaillance d’un des sites.

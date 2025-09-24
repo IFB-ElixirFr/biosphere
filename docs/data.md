@@ -1,3 +1,8 @@
+!!! Warning "IMPORTANT!"
+    The IFB cloud is currently available only for analysis purposes and not for permanent data storage. In this sense, it is neither backed up nor guaranteed against misuse or system crashes.
+
+    The IFB cloud is not authorized to host health data (HDS), industrial or more broadly sensitive and confidential data of high importance.
+
 ## Transferring data with your VM
 
 Cloud appliances providing a **web interface** usually include upload and download features through web forms,
