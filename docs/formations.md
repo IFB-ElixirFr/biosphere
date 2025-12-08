@@ -19,7 +19,12 @@ Training VMs are not necessarily used continuously (e.g., during preparation or 
 ## Creation of a dedicated training group
 
 The first step is to submit a support request for this training through the Biosphère portal using this
-[form](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2). The person requesting support must also have a valid account in the IFB cloud and have joined the group corresponding to their primary affiliation.
+[form](https://biosphere.france-bioinformatique.fr/cloudweb_account/groups/create?type_of_group=2).
+
+!!! Warning
+    **This request must be submitted by the administrative manager of the training program.
+    The person requesting support must also have a valid account in the IFB cloud,
+    and have joined the group corresponding to their primary affiliation.**
 
 A group corresponding to this training will be created in Biosphère, and resources (vCPU, RAM, storage) will be allocated based on your needs and the available resources on the infrastructure.
 

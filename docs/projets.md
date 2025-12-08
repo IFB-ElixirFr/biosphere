@@ -1,9 +1,9 @@
 The IFB supports research projects (regional, ANR, European, etc.) by providing bioinformatics and IT infrastructure with dedicated virtual machines, as well as assistance in implementing software environments.
 
 !!! Warning "IMPORTANT!"
-    The IFB cloud is currently available only for analysis purposes and not for permanent data storage. In this sense, it is neither backed up nor guaranteed against misuse or system crashes.
+    The IFB cloud is currently available **only for analysis purposes and not for permanent data storage**. In this sense, it is **neither backed up nor guaranteed** against misuse or system crashes.
 
-    The IFB cloud is not authorized to host health data (HDS), industrial or more broadly sensitive and confidential data of high importance.
+    The IFB cloud is **not authorized to host health data (HDS), industrial or more broadly sensitive and confidential data of high importance**.
 
 ## Setting up a project group
 

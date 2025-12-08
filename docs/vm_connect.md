@@ -4,24 +4,26 @@ There are different ways to interact with your virtual machines (VM):
 
 1. with a **web interface** (HTTP) with web-enabled cloud appliances, for example RStudio, Jupyter Notebooks;
 2. with the **SSH command line interface** (CLI) through a terminal window;
-3. with a **remote graphical desktop** (X2Go).
+3. with a **remote graphical desktop** (X2Go or VNC).
 
-Once the deployment of your VM is done successfully, you can get all connection parameters from the column `Access` in the  [**myVM** tab
-](https://biosphere.france-bioinformatique.fr/cloud) of the biosphere portal. You will find the HTTP link (if any) to your VM, or the SSH parameters (`username` and `IP address`) to use to connect to your VM.
+Once the deployment of your VM is done successfully, you can get all connection parameters from the column `Access` in the  [**myVM** tab](https://biosphere.france-bioinformatique.fr/cloud) of the biosphere portal.
+You will find the HTTP/S link (if any) to your VM, or the SSH parameters (`username` and `IP address`) to use to connect to your VM.
 
-### 1. Connecting to the web interface of a VM
+### 1. Connecting to a VM with a web interface
 
 Simply click on the **HTTPS** link to be redirected to the web portal provided by your VM. In the case you are requested to provide the `username` and `password`, or the `access token`, they are provided through the parameters field `Params` in the `Access` column. These security parameters are unique for your VM and only known to you (and of course to the administrators of your group and of the cloud site for operationnal reasons).
 
 
-### 2. Connecting with SSH to a VM
+### 2. Connecting to a VM with SSH 
 
 An SSH client is installed by default in any computer with Linux (CentOS, Ubuntu, Debian,...), MacOS ([doc](https://support.apple.com/fr-gq/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac))
-and MS Windows 10 (and higher). From MS Windows 10 release, you can use both
+and MS Windows 10 (and higher).
+
+From MS Windows 10 release, you can use both
 the PowerShell ([doc](https://docs.microsoft.com/fr-fr/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2#where-do-i-find-powershell))
 or the WSL - Windows Subsystem Linux - based on Ubuntu ([doc](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)). 
 
-#### Configuring your SSH parameters in the Biosphere portal
+#### Configuring your SSH parameters in your Biosphere profile
 
 First, you need to **configure your SSH parameters before creating a VM with SSH access**.
 Indeed your SSH PubKey will be imported in your VM at its creation, and cannot be modified afterwards.
@@ -34,13 +36,18 @@ Indeed your SSH PubKey will be imported in your VM at its creation, and cannot b
   cat $HOME/.ssh/id_rsa.pub
   ```
 
-  If you do not have already your SSH keys pair, you can create one with the following command.
+  If you got an empty answer, you do not have already a SSH keys pair, and you can create one with the following command.
+
+!!! Warning
+    If you have already a SSH key pair, you risk overwriting it with this new command..
 
   ```
   ssh-keygen -t rsa
   ```
-##### 2. Open your account parameters page
+
+##### 2. Open your account parameters page
   They are available from the user menu in the top-right corner of the Biopshere portal [[go](https://biosphere.france-bioinformatique.fr/cloudweb_account/settings/)].
+
 ##### 3. Click the Edit button.
 
 ##### 4. Copy your SSH public key in the `Pubkey` field.
@@ -49,56 +56,76 @@ You can paste several public keys but be careful that each one is on one line on
 
 #### Opening the SSH connection to the VM
 
-Opening the SSH connection to the VM simply requires you to click on the `ssh` link to be redirected to the terminal with an automatic SSH connection to  your VM. This will work for MacOS and most Linux. For others systems, you have to copy from the `ssh` link, paste the copied text in a terminal or a PowerShell window, and replace the '://' by ' ' in the command to run. The connection will be opened according to the SSH key you configured (see above).
+To connect to a VM with SSH, you will need to
 
-### 3. Opening a remote desktop with X2Go to a VM
+- open the VM description page by clicking on its `ID` link in the Biosphere dashboard [**myVM**](https://biosphere.france-bioinformatique.fr/cloud),
+- in the VM page, copy the `ssh` command from the table `Access`,
+- paste the copied text in a terminal (Linux, MacOS) or a PowerShell window (MS Windows),
+- and hit return.
 
-Opening a remote desktop requires to both have configured your SSH parameters (see above) and installed the X2Go client and dependencies.
+The connection will be established according to the SSH public key you configured in your profile (see above).
 
-#### Configuring the software tools 
+You can also click on the `ssh` link in the Biosphere dashboard to open
+a new terminal with an automatic SSH connection to  your VM.
+_(But this will work only with MacOS and most Linux.)_
 
-* [All OS] Install the X2Go client: [X2Go download instructions - chapter X2Go Client](https://wiki.x2go.org/doku.php/download:start).
-* [MacOS] Install the X server software [Xquartz]()
-* [MS Windows 10] Install an X server sotware : [VcXsrv](https://sourceforge.net/projects/vcxsrv) or [Xming](https://sourceforge.net/projects/xming/)
+
+### 3. Connecting to a VM with a virtual remote desktop
+
+You can connect to a desktop VM in two different ways, with X2Go or with VNC.
+
+Opening a remote desktop requires to have both
+
+- configured your SSH parameters (see above),
+- and installed the X2Go or a VNC client and dependencies (see below).
+
+!!! Warning 
+    With recent version of Ubuntu, there is a known bug with the X2Go desktop related to the compatibility of the X2Go server with the GLX library.
+    So if you encounter some troubles with X2Go, you should perfer a connection with VNC 
+
+
+#### Connecting to a desktop VM with X2Go
+
+##### 1. Install the X2Go client
+
+[X2Go download instructions - chapter X2Go Client](https://wiki.x2go.org/doku.php/download:start).
+
+##### 2. Install the X server software
+
+* [MacOS] : Xquartz (https://www.xquartz.org/)
+* [MS Windows 10] : VcXsrv (https://sourceforge.net/projects/vcxsrv) or Xming (https://sourceforge.net/projects/xming/)
 
 *Linux distributions have usually an X server installed by default.*
 
-#### Opening the remote desktop connection to the VM
+##### 3. Open the remote desktop connection to the VM
 
-You can get the connection parameters of the VM in the `Params` fields of the column `Access` (in the [**myVM** tab](https://biosphere.france-bioinformatique.fr/cloud)).
+You can get the connection parameters of the VM in the `Params` fields of the column `Access` (in the [**myVM** tab](https://biosphere.france-bioinformatique.fr/cloud)):
+
 - `username`
 - `IP/hostname` of the VM
 - `session type` (usually XFCE)
 
 Then, you will use them to configure a session in the X2Go client (see [X2Go usage instructions](https://wiki.x2go.org/doku.php/doc:usage:x2goclient)). And do not forget to check the box for `Automatic authentication (with SSH agent or default key)`
 
+#### Connecting to a desktop VM with VNC
 
-### Annex - Using the `PuTTY` software tool with MS Windows older than 10
+You can use any VNC client, for example the TigerVNC one (https://tigervnc.org)
+([download the latest release](https://sourceforge.net/projects/tigervnc/files/stable/)).
 
-We describe here the use of the `PuTTY` tool, which could be used to connect with SSH to your VM, or to a remote desktop with `X2Go` tool. **This solution should be used only in case your MS Windows OS is older than MS Windows 10. For MS windows 10 and higher, we recommend to use the PowerShell (see above).**
+##### 1. Connect to your VM with SSH
 
-First, you need to install `PuTTY` on your machine. You can find both the download and installation instructions on the [official web site](http://www.putty.org/). Take care to use the MSI (‘Windows Installer’).
+`ssh -L 5901:localhost:5901 ubuntu@<vm-ip>`
 
-  * Creating your SSH keys and configuring your Biosphere account
-  
-    1. Open the software `PuTTYgen` from the MS Windows Start menu.
-    2. Choose `SSH-2 RSA` in the bottom and click on `Generate`.
-    3. Click on the `Save private key` button to save the **private key** in a file called `ClePriv-PUTTY` on the Desktop (*This file will be useful to open an SSH connection to your VM with PuTTY*).
-    4. Exec the menu `Conversions > Export OpenSSH key` to save the private key in a SSH-format file called `ClePriv-SSH`, also on the Desktop (*You will need it to open a remote desktop with the X2Go tool, or with FileZila to tranfer data to/from the VM*).
-    5. Copy the **public key** from the `Public Key for pasting into OpenSSH (...)` at the top of the window.
-    6. Paste this copied SSH public key in the field `PubKey` of your Biosphere account parameters.
+_(Valid for Ubuntu VM, replace `ubuntu` by `debian` or `rocky` according to the VM you are running)_
 
-  * Opening an SSH connection to your VM
+##### 2. Once connected to your VM, launch the VNC server
 
-    1. Open the software `PuTTY` from the MS Windows `Start` menu
-    2. Copy the `IP/hostname` of your deployed VM from the Biosphere dashboard (put you mouse over  `?` next to the name of the VM)
-    3. Paste the `IP/hostname` in the field `Session > HostName (or IP address)`
-    ([doc](https://the.earth.li/~sgtatham/putty/0.76/htmldoc/Chapter4.html#config-session))
-    4. Select `SSH` for the `Connection type`
-    5. Fill the `Auto-login username` in the menu `Data` ([doc](https://the.earth.li/~sgtatham/putty/0.76/htmldoc/Chapter4.html#config-data)) with the default one (`ubuntu`, `debian` or `centos`) according to the Linux system of your VM.
-    6. Select the file `ClePriv-PUTTY` in the menu `Connection > SSH >Auth > Private key file for authentication`.
+`vncserver -localhost yes -autokill no -SecurityTypes None`
 
-  * Opening a remote desktop to your VM
+##### 3. Verify that the service is running
 
-    1. Open the software `X2Go` from the MS Windows Start menu
-    2. Create a new X2GO session (see above)
+`vncserver -list`
+
+##### 4. Connect to the desktop
+
+On your local computer, open the TigerVNC client, and fill in the window the parameter `VNC server` with the value `localhost:5901`.
