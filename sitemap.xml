@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
+    </url>
+    <url>
+        <loc>Noneateliers/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneateliers/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/ateliers/"/>
+    </url>
+    <url>
+        <loc>Nonedata/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonedata/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/data/"/>
+    </url>
+    <url>
+        <loc>Noneformations/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneformations/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/formations/"/>
+    </url>
+    <url>
+        <loc>Noneprojets/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneprojets/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/projets/"/>
+    </url>
+    <url>
+        <loc>Nonesignin/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonesignin/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/signin/"/>
+    </url>
+    <url>
+        <loc>Nonevm_connect/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonevm_connect/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/vm_connect/"/>
+    </url>
+    <url>
+        <loc>Nonevm_deploy/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonevm_deploy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/vm_deploy/"/>
+    </url>
+    <url>
+        <loc>Nonefr/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonefr/ateliers/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/ateliers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneateliers/"/>
+    </url>
+    <url>
+        <loc>Nonefr/data/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/data/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonedata/"/>
+    </url>
+    <url>
+        <loc>Nonefr/formations/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/formations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneformations/"/>
+    </url>
+    <url>
+        <loc>Nonefr/projets/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/projets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneprojets/"/>
+    </url>
+    <url>
+        <loc>Nonefr/signin/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/signin/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonesignin/"/>
+    </url>
+    <url>
+        <loc>Nonefr/vm_connect/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/vm_connect/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonevm_connect/"/>
+    </url>
+    <url>
+        <loc>Nonefr/vm_deploy/</loc>
+        <lastmod>2025-12-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/vm_deploy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonevm_deploy/"/>
+    </url>
+</urlset>
