@@ -39,7 +39,7 @@ Indeed your SSH PubKey will be imported in your VM at its creation, and cannot b
   If you got an empty answer, you do not have already a SSH keys pair, and you can create one with the following command.
 
 !!! Warning
-    If you have already a SSH key pair, you risk overwriting it with this new command..
+    If you have already a SSH key pair, you risk overwriting it with this new command.
 
   ```
   ssh-keygen -t rsa
